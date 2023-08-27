@@ -7,17 +7,14 @@
     <title>Home</title>
    <link rel="stylesheet" href="style.css" media="screen">
 <link rel="stylesheet" href="home.css" media="screen">
+ 
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="style.js" defer=""></script>
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
     
-    
-
-
-  
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" /> 
+    <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
 	<style>
 	
 	/* Default LTR styles */
@@ -65,6 +62,11 @@ body.rtl .u-section-3 .u-text-2{
    margin-left:0px;
    margin-right:0px;
 }
+ 
+ 
+ 
+
+ 
 	</style>
   </head>
   
@@ -133,21 +135,42 @@ body.rtl .u-section-3 .u-text-2{
       <div class="u-clearfix u-sheet u-sheet-1">
 
 				<div class="owl-carousel owl-theme" id="second-carousel">
-    <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
-    <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
-    <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
-    <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
-    <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
-    <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
-    <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
-    <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
-    <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
-    <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
-    <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
+    <div class="item"><img src="images/yout.webp" alt=""></div>
+    <div class="item"><img src="images/yout.webp" alt=""></div>
+    <div class="item"><img src="images/yout.webp" alt=""></div>
+    <div class="item"><img src="images/yout.webp" alt=""></div>
+    <div class="item"><img src="images/yout.webp" alt=""></div>
+    <div class="item"><img src="images/yout.webp" alt=""></div>
+    <div class="item"><img src="images/yout.webp" alt=""></div>
+    <div class="item"><img src="images/yout.webp" alt=""></div>
+    <div class="item"><img src="images/yout.webp" alt=""></div>
+    <div class="item"><img src="images/yout.webp" alt=""></div>
+    <div class="item"><img src="images/yout.webp" alt=""></div>
 </div>   
    </div>
     </section>
-    <section class="u-clearfix u-palette-1-light-3 u-section-3" id="carousel_1a57">
+
+    <section class="u-align-center u-clearfix u-section-2" style="margin-bottom: 0%;" id="sec-a37e">
+      <div class="u-clearfix u-sheet u-sheet-1">
+
+				<div class="owl-carousel owl-theme" id="second-carousel2">
+    <div class="item"><img src="images/yout.webp" alt=""></div>
+    <div class="item"><img src="images/yout.webp" alt=""></div>
+    <div class="item"><img src="images/yout.webp" alt=""></div>
+    <div class="item"><img src="images/yout.webp" alt=""></div>
+    <div class="item"><img src="images/yout.webp" alt=""></div>
+    <div class="item"><img src="images/yout.webp" alt=""></div>
+    <div class="item"><img src="images/yout.webp" alt=""></div>
+    <div class="item"><img src="images/yout.webp" alt=""></div>
+    <div class="item"><img src="images/yout.webp" alt=""></div>
+    <div class="item"><img src="images/yout.webp" alt=""></div>
+    <div class="item"><img src="images/yout.webp" alt=""></div>
+</div>   
+   </div>
+    </section>
+
+
+    <section class="u-clearfix u-palette-1-light-3 u-section-3"  style="margin: 0%;"id="carousel_1a57">
       <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-sheet-1">
         <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
           <div class="u-layout">
@@ -607,15 +630,16 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
 
 
-<Script>
-$('#first-carousel').owlCarousel({
-    rtl:true,
+<Script> 
+$(".owl-carousel").each(function(){
+    $('#second-carousel2').owlCarousel({
+      rtl:false,
     loop:true,
     margin:10,
 	  nav: false, // Hide navigation buttons
   dots: false, // Hide dots
     autoplay: true, // Enable autoplay
-  autoplayTimeout: 3000, // Set the timeout to 3 seconds
+  autoplayTimeout: 1000, // Set the timeout to 3 seconds
   autoplayHoverPause: true, // Pause on hover
     responsive:{
         0:{
@@ -628,16 +652,15 @@ $('#first-carousel').owlCarousel({
             items:5
         }
     }
-})
-
-$('#second-carousel').owlCarousel({
-    rtl:true,
+    });
+    $('#second-carousel').owlCarousel({
+      rtl:true,
     loop:true,
-    margin:10,
+    margin:15,
 	  nav: false, // Hide navigation buttons
   dots: false, // Hide dots
     autoplay: true, // Enable autoplay
-  autoplayTimeout: 3000, // Set the timeout to 3 seconds
+  autoplayTimeout: 1000, // Set the timeout to 3 seconds
   autoplayHoverPause: true, // Pause on hover
     responsive:{
         0:{
@@ -650,9 +673,11 @@ $('#second-carousel').owlCarousel({
             items:5
         }
     }
-})
-
-
+    });
+  });
+ 
+  
+            
 
 </script>
   
