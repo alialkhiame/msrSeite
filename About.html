@@ -9,9 +9,88 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Homepage</title>
+    <title>About Us</title>
 
+    <div id="particles-js"> <!-- stats - count particles -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+   <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+   <script>particlesJS("particles-js", {
+     particles: {
+       number: { value: 80, density: { enable: true, value_area: 800 } },
+       color: { value: "random" },
+       shape: {
+         type:  "circle",
+         stroke: { width: 0, color: "#000000" },
+         polygon: { nb_sides: 5 },
+         image: { src: "img/github.svg", width: 100, height: 100 }
+       },
+       opacity: {
+         value: 1,
+         random: false,
+         anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false }
+       },
+       size: {
+         value: 1.7,
+         random: false,
+         anim: { enable: false, speed: 40, size_min: 0.1, sync: false }
+       },
+       line_linked: {
+         enable: true,
+         distance: 100,
+         color: "#4287f5",
+         opacity: 1,
+         width: 0.9
+       },
+       move: {
+         enable: true,
+         speed: 6,
+         direction: "none",
+         random: false,
+         straight: false,
+         out_mode: "out",
+         bounce: false,
+         attract: { enable: false, rotateX: 600, rotateY: 1200 }
+       }
+     },
+     interactivity: {
+       detect_on: "canvas",
+       events: {
+         onhover: { enable: true, mode: "repulse" },
+         onclick: { enable: true, mode: "push" },
+         resize: true
+       },
+       modes: {
+         grab: { distance: 400, line_linked: { opacity: 1 } },
+         bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 },
+         repulse: { distance: 200, duration: 0.4 },
+         push: { particles_nb: 4 },
+         remove: { particles_nb: 2 }
+       }
+     },
+     retina_detect: true
+   });
+   var count_particles, stats, update;
+   stats = new Stats();
+   stats.setMode(0);
+   stats.domElement.style.position = "absolute";
+   stats.domElement.style.left = "0px";
+   stats.domElement.style.top = "0px";
+   document.body.appendChild(stats.domElement);
+   count_particles = document.querySelector(".js-count-particles");
+   update = function () {
+     stats.begin();
+     stats.end();
+     if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+       count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+     }
+     requestAnimationFrame(update);
+   };
+   requestAnimationFrame(update);
+   </script>
+   <!--end--particals-->
+   
 	<link href="css/style.css" rel="stylesheet">
+    <link href="../home.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
@@ -27,7 +106,7 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id = "x">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -43,13 +122,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="./home.html">Home</a>
+                        <a href="./home.html" style="color: #000; font-size: 40px;">Home</a>
                     </li>
                     <li>
-                        <a style="color:blue;" href="#about">About</a>
+                        <a   href="#about" style="color: blue; font-size: 40px; ">About</a>
                     </li>
                     <li>
-                        <a href="./home.html">contact</a>
+                        <a href="./home.html" style="color: #000; font-size: 40px;">contact</a>
                     </li>
                      
                     
@@ -349,8 +428,23 @@
 	});
     
     </script>
+</div>
+	<style>
+#x{
+    color:black;
+    background-color:transparent;
+    z-index: 1;
+}
+body{
+    opacity: 0.9;
+    background-color: #4e7894;
+}
+.navbar-header{
+	color: #000;
+}
 
-	
+
+    </style>
 </body>
 
 </html>

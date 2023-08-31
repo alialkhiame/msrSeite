@@ -21,6 +21,7 @@
 	/* Default LTR styles */
 body {
     direction: ltr;
+    
 }
 
 /* Overridden styles for RTL */
@@ -63,7 +64,21 @@ body.rtl .u-section-3 .u-text-2{
    margin-right:0px;
 }
  
- 
+body.rtl #second-carousel2{	
+ direction: ltr;	
+} 	
+ 	
+body.rtl .u-section-5 .u-slider-1{	
+    min-height: 452px;	
+    width: 563px;	
+    height: auto;	
+    margin: 58px auto 0px 579px !important;	
+}	
+body.rtl .u-section-5 .u-image-3{	
+    width: 391px;	
+    height: 391px;	
+    margin: -437px 760px 64px auto !important;	
+} 
  
 
  
@@ -216,26 +231,19 @@ requestAnimationFrame(update);
         </div>
       </div>
     </section>
-    <section class="u-align-center u-clearfix u-section-2" id="sec-a37e">
+    <section class="u-align-center u-clearfix u-section-2" id="sec-a37e"style="margin-top: 30px;max-height: 200px; ">
       <div class="u-clearfix u-sheet u-sheet-1">
 
 				<div class="owl-carousel owl-theme" id="second-carousel">
-    <div class="item"><img src="images/yout.webp" alt=""></div>
-    <div class="item"><img src="images/yout.webp" alt=""></div>
-    <div class="item"><img src="images/yout.webp" alt=""></div>
-    <div class="item"><img src="images/yout.webp" alt=""></div>
-    <div class="item"><img src="images/yout.webp" alt=""></div>
-    <div class="item"><img src="images/yout.webp" alt=""></div>
-    <div class="item"><img src="images/yout.webp" alt=""></div>
-    <div class="item"><img src="images/yout.webp" alt=""></div>
-    <div class="item"><img src="images/yout.webp" alt=""></div>
-    <div class="item"><img src="images/yout.webp" alt=""></div>
-    <div class="item"><img src="images/yout.webp" alt=""></div>
+          <div class="item"><img src="images/amazon.png" alt=""></div>	
+          <div class="item"><img src="images/ebay.png" alt=""></div>	
+          <div class="item"><img src="images/flipkart.png" alt=""></div>	
+          <div class="item"><img src="images/walmart.png" alt=""></div>
 </div>   
    </div>
     </section>
 
-    <section class="u-align-center u-clearfix u-section-2" style="margin-bottom: 0%;" id="sec-a37e">
+    <section class="u-align-center u-clearfix u-section-2" style="margin-bottom: -5%;" id="sec-a37e">
       <div class="u-clearfix u-sheet u-sheet-1">
 
 				<div class="owl-carousel owl-theme" id="second-carousel2">
@@ -260,6 +268,9 @@ requestAnimationFrame(update);
         <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
           <div class="u-layout">
             <div class="u-layout-row">
+			              <div class="u-container-align-center u-container-style u-image u-layout-cell u-size-30 u-image-1" data-image-width="1920" data-image-height="1310">
+                <div class="u-container-layout u-container-layout-2"></div>
+              </div>
               <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
                 <div class="u-container-layout u-valign-middle u-container-layout-1">
                   <h3 class="u-align-left u-custom-font u-font-montserrat u-text u-text-default u-text-1">About us?</h3>
@@ -290,9 +301,7 @@ requestAnimationFrame(update);
                   </ul>
                 </div>
               </div>
-              <div class="u-container-align-center u-container-style u-image u-layout-cell u-size-30 u-image-1" data-image-width="1920" data-image-height="1310">
-                <div class="u-container-layout u-container-layout-2"></div>
-              </div>
+
             </div>
           </div>
         </div>
@@ -752,78 +761,79 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
 
 
-<Script> 
-$(".owl-carousel").each(function(){
-    $('#second-carousel2').owlCarousel({
-      rtl:false,
-    loop:true,
-    margin:10,
-	  nav: false, // Hide navigation buttons
-  dots: false, // Hide dots
-    autoplay: true, // Enable autoplay
-  autoplayTimeout: 1000, // Set the timeout to 3 seconds
-  autoplayHoverPause: true, // Pause on hover
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
+
+<Script>
+  	$(".owl-carousel").each(function(){	
+    $('#second-carousel2').owlCarousel({	
+      rtl:false,	
+    loop:true,	
+    margin:10,	
+	  nav: false, // Hide navigation buttons	
+  dots: false, // Hide dots	
+    autoplay: true, // Enable autoplay	
+  autoplayTimeout: 1000, // Set the timeout to 3 seconds	
+  autoplayHoverPause: true, // Pause on hover	
+    responsive:{	
+        0:{	
+            items:1	
+        },	
+        600:{	
+            items:3	
+        },	
+        1000:{	
+            items:5	
+        }	
+    }	
     });
-    $('#second-carousel').owlCarousel({
-      rtl:true,
-    loop:true,
-    margin:15,
-	  nav: false, // Hide navigation buttons
-  dots: false, // Hide dots
-    autoplay: true, // Enable autoplay
-  autoplayTimeout: 1000, // Set the timeout to 3 seconds
-  autoplayHoverPause: true, // Pause on hover
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-    });
-    $('#first-carousel').owlCarousel({
-      rtl:true,
-    loop:true,
-    margin:15,
-	  nav: false, // Hide navigation buttons
-  dots: false, // Hide dots
-    autoplay: true, // Enable autoplay
-  autoplayTimeout: 1000, // Set the timeout to 3 seconds
-  autoplayHoverPause: true, // Pause on hover
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-    });
-  });
+    $('#first-carousel').owlCarousel({	
+      rtl:true,	
+    loop:true,	
+    margin:15,	
+	  nav: false, // Hide navigation buttons	
+  dots: false, // Hide dots	
+    autoplay: true, // Enable autoplay	
+  autoplayTimeout: 1000, // Set the timeout to 3 seconds	
+  autoplayHoverPause: true, // Pause on hover	
+    responsive:{	
+        0:{	
+            items:1	
+        },	
+        600:{	
+            items:3	
+        },	
+        1000:{	
+            items:5	
+        }	
+    }	
+    });	
+  });	
  
-</script>
   
-  	
-	<Script>
-function setLanguage(lang) {
+    $('#second-carousel').owlCarousel({	
+      rtl:true,	
+    loop:true,	
+    margin:15,	
+	  nav: false, // Hide navigation buttons	
+  dots: false, // Hide dots	
+    autoplay: true, // Enable autoplay	
+  autoplayTimeout: 1000, // Set the timeout to 3 seconds	
+  autoplayHoverPause: true, // Pause on hover	
+    responsive:{	
+        0:{	
+            items:1	
+        },	
+        600:{	
+            items:3	
+        },	
+        1000:{	
+            items:5	
+        }	
+    }	
+    });
+  
+  </script>
+    <script> 
+  function setLanguage(lang) {
     // Change page direction
     if (lang === 'ar') {
         document.body.classList.add('rtl');
