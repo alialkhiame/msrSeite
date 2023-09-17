@@ -95,7 +95,7 @@ body.rtl .u-section-5 .u-image-3{
 <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 <script>particlesJS("particles-js", {
   particles: {
-    number: { value: 80, density: { enable: true, value_area: 800 } },
+    number: { value: 25, density: { enable: true, value_area: 500 } },
     color: { value: "random" },
     shape: {
       type:  "circle",
@@ -104,42 +104,42 @@ body.rtl .u-section-5 .u-image-3{
       image: { src: "img/github.svg", width: 100, height: 100 }
     },
     opacity: {
-      value: 1,
-      random: false,
-      anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false }
+      value: 0.6,
+      random: true,
+      anim: { enable: true, speed: 0.6, opacity_min: 0.1, sync: false }
     },
     size: {
-      value: 1.7,
+      value: 1.8,
       random: false,
       anim: { enable: false, speed: 40, size_min: 0.1, sync: false }
     },
     line_linked: {
-      enable: true,
+      enable: false,
       distance: 100,
-      color: "#4287f5",
-      opacity: 1,
-      width: 0.9
+      color: "#a85e32",
+      opacity: 0.9,
+      width: 0.6
     },
     move: {
       enable: true,
-      speed: 6,
+      speed:4,
       direction: "none",
-      random: false,
+      random: true,
       straight: false,
       out_mode: "out",
-      bounce: false,
-      attract: { enable: false, rotateX: 600, rotateY: 1200 }
+      bounce: true,
+      attract: { enable: true, rotateX: 600, rotateY: 1200 }
     }
   },
   interactivity: {
     detect_on: "canvas",
     events: {
-      onhover: { enable: true, mode: "repulse" },
-      onclick: { enable: true, mode: "push" },
+      onhover: { enable: true, mode: "grab" },
+      onclick: { enable: true, mode: "remove" },
       resize: true
     },
     modes: {
-      grab: { distance: 400, line_linked: { opacity: 1 } },
+      grab: { distance: 80, line_linked: { opacity: 2 } },
       bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 },
       repulse: { distance: 200, duration: 0.4 },
       push: { particles_nb: 4 },
@@ -234,18 +234,18 @@ requestAnimationFrame(update);
     <section class="u-align-center u-clearfix u-section-2" id="sec-a37e"style="margin-top: 30px;max-height: 200px; ">
       <div class="u-clearfix u-sheet u-sheet-1">
 
-				<div class="owl-carousel owl-theme" id="second-carousel">
-          <div class="item"><img src="images/amazon.png" alt=""></div>	
-          <div class="item"><img src="images/ebay.png" alt=""></div>	
-          <div class="item"><img src="images/flipkart.png" alt=""></div>	
-          <div class="item"><img src="images/walmart.png" alt=""></div>
+				<div class="owl-carousel owl-theme" id="second-carousel" >
+          <div class="item" style="max-height: 50px;"><img src="images/amazon.png" alt="404"></div>	
+          <div class="item" style="max-height: 50px;"><img src="images/ebay.png" alt="404"></div>	
+          <div class="item" style="max-height: 50px;"><img src="images/flipkart.png" alt="404"></div>	
+          <div class="item" style="max-height: 50px;"><img src="images/walmart.png" alt="404"></div>
 </div>   
    </div>
     </section>
 
     <section class="u-align-center u-clearfix u-section-2" style="margin-bottom: -5%;" id="sec-a37e">
       <div class="u-clearfix u-sheet u-sheet-1">
-
+<!--
 				<div class="owl-carousel owl-theme" id="second-carousel2">
     <div class="item"><img src="images/yout.webp" alt=""></div>
     <div class="item"><img src="images/yout.webp" alt=""></div>
@@ -259,10 +259,10 @@ requestAnimationFrame(update);
     <div class="item"><img src="images/yout.webp" alt=""></div>
     <div class="item"><img src="images/yout.webp" alt=""></div>
 </div>   
-   </div>
+   </div>-->
     </section>
 
-
+<!--
     <section class="u-clearfix u-palette-1-light-3 u-section-3"  style="margin: 0%;"id="carousel_1a57">
       <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-sheet-1">
         <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
@@ -290,7 +290,7 @@ requestAnimationFrame(update);
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
     <section class="u-align-center u-border-2 u-border-grey-75 u-clearfix u-section-4" style="border: none;" id="sec-7160">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-text u-text-default u-text-1" data-lang="en">Our services</h2>
@@ -576,6 +576,7 @@ function readmore() {
   }
 }</style>
     </section>
+    <!--
     <section class="u-align-center u-clearfix u-section-6" id="carousel_b5df">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h1 class="u-text u-text-default u-text-1">Our partners </h1>
@@ -593,7 +594,7 @@ function readmore() {
     <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
 </div>
 	</div>
-    </section>
+    </section>-->
     <section class="u-align-center u-clearfix u-container-align-center u-section-7" id="carousel_c28f">
       <div class="u-expanded-width u-palette-1-light-2 u-shape u-shape-rectangle u-shape-1"></div>
       <h2 class="u-align-center u-text u-text-body-alt-color u-text-default u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1500">Our Leaders</h2>
