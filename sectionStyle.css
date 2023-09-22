@@ -1,0 +1,31 @@
+#section1{
+z-index: 1000;
+}
+#section2{
+    
+    position: relative;
+   
+}
+
+.item{
+    margin-left: 40px;
+  
+ 
+  
+ 
+    
+   
+
+}
+#section3{
+    z-index: 1000;  
+}
+#section4{
+    z-index: 1000;
+}
+#section5{
+    z-index: 1000; 
+}
+#section6{
+    z-index: 1000;
+}

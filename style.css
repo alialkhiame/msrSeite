@@ -39942,7 +39942,7 @@ li.active > a.u-button-style.u-text-body-alt-color,
 li.active > a.u-button-style.u-text-body-alt-color[class*="u-border-"],
 a.u-button-style.u-text-body-alt-color,
 a.u-button-style.u-text-body-alt-color[class*="u-border-"] {
-  color: #ffffff !important;
+  color: black !important;
 }
 a.u-button-style.u-text-body-alt-color:hover,
 a.u-button-style.u-text-body-alt-color[class*="u-border-"]:hover,
