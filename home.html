@@ -1,904 +1,1215 @@
 <!DOCTYPE html>
-<html style="font-size: 16px;" lang="en"><head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <meta name="keywords" content="​Ready to get started?, Our services, Our partners​, Our Leaders, Get in touch">
-    <meta name="description" content="">
-    <title>Home</title>
-   <link rel="stylesheet" href="style.css" media="screen">
-<link rel="stylesheet" href="home.css" media="screen">
- 
-    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="style.js" defer=""></script>
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
-    
-    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" /> 
-    <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
-    <script src="1.js"></script>
-	<style>
-	
-	/* Default LTR styles */
-body {
-    direction: ltr;
-    
-}
+<html style="font-size: 16px;" lang="en">
 
-/* Overridden styles for RTL */
-body.rtl {
-    direction: rtl;
-    text-align: right;
-}
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="keywords" content="​Ready to get started?, Our services, Our partners​, Our Leaders, Get in touch">
+  <meta name="description" content="">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css" media="screen">
+  <link rel="stylesheet" href="home.css" media="screen">
+  <link rel="stylesheet" href="sectionStyle.css" media="screen">
+  <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+  <script class="u-script" type="text/javascript" src="style.js" defer=""></script>
+  <link id="u-theme-google-font" rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+  <link id="u-page-google-font" rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
 
-body.rtl .u-header .u-image-1{
-    direction: ltr !important;
-}
+  <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
+  <script src="1.js"></script>
+  <style>
+    /* Default LTR styles */
+    body {
+      direction: ltr;
 
-body.rtl .u-header .u-menu-1 {
-direction: ltr;
-}
-body.rtl .u-nav-container{
-direction: rtl;
-
-}
-body.rtl .u-section-3 .u-layout-cell-1{
-    text-align: right;
-}
-
-body.rtl .u-custom-list .u-list-icon{
-right: -35px;
-}
-
-body.rtl .u-section-3 .u-text-3{
-    text-align: right;
-
-}
-body.rtl .u-section-3 .u-text-1{
-   text-align: right;
-       margin: 0;
-}
-
-body.rtl .u-section-3 .u-text-2{
-   text-align: right;
-   margin-left:0px;
-   margin-right:0px;
-}
- 
-body.rtl #second-carousel2{	
- direction: ltr;	
-} 	
- 	
-body.rtl .u-section-5 .u-slider-1{	
-    min-height: 452px;	
-    width: 563px;	
-    height: auto;	
-    margin: 58px auto 0px 579px !important;	
-}	
-body.rtl .u-section-5 .u-image-3{	
-    width: 391px;	
-    height: 391px;	
-    margin: -437px 760px 64px auto !important;	
-} 
- 
-
- 
-	</style>
-  </head>
-  
-  <body class="u-body u-xl-mode" >
-
-<!--particals-->
-
-<!-- particles.js container -->
-<div id="particles-js"></div> <!-- stats - count particles -->
- <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
-<script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
-<script>particlesJS("particles-js", {
-  particles: {
-    number: { value: 25, density: { enable: true, value_area: 500 } },
-    color: { value: "random" },
-    shape: {
-      type:  "circle",
-      stroke: { width: 0.2, color: "#000000" },
-      polygon: { nb_sides: 5 },
-      image: { src: "img/github.svg", width: 100, height: 100 }
-    },
-    opacity: {
-      value: 0.7,
-      random: false,
-      anim: { enable: true, speed: 0.6, opacity_min: 0.4, sync: false }
-    },
-    size: {
-      value: 1.8,
-      random: false,
-      anim: { enable: false, speed: 40, size_min: 0.1, sync: false }
-    },
-    line_linked: {
-      enable: true,
-      distance: 100,
-      color: "#a85e32",
-      opacity: 0.9,
-      width: 0.6
-    },
-    move: {
-      enable: true,
-      speed:4,
-      direction: "none",
-      random: true,
-      straight: false,
-      out_mode: "out",
-      bounce: true,
-      attract: { enable: true, rotateX: 600, rotateY: 1200 }
     }
-  },
-  interactivity: {
-    detect_on: "canvas",
-    events: {
-      onhover: { enable: true, mode: "grab" },
-       
-      resize: true
-    },
-    modes: {
-      grab: { distance: 120, line_linked: { opacity: 3 } },
-      bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 },
-      repulse: { distance: 200, duration: 0.4 },
-      push: { particles_nb: 4 },
-      remove: { particles_nb: 2 }
-    }
-  },
-  retina_detect: true
-});
-var count_particles, stats, update;
-stats = new Stats();
-stats.setMode(0);
-stats.domElement.style.position = "relative";
-stats.domElement.style.left = "0px";
-stats.domElement.style.top = "0px";
-document.body.appendChild(stats.domElement);
-count_particles = document.querySelector(".js-count-particles");
-update = function () {
-  stats.begin();
-  stats.end();
-  if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-    count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-  }
-  requestAnimationFrame(update);
-};
-requestAnimationFrame(update);
-</script>
-<!--end--particals-->
 
-  <header class="u-clearfix u-header u-header" id="sec-2e88"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <a href="#" class="u-image u-logo u-image-1">
-          <img src="images/default-logo.png" class="u-logo-image u-logo-image-1">
-        </a>
-        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
-          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
-            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
-              <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
-              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
-</g></svg>
-            </a>
-          </div>
-          <div class="u-nav-container">
-            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Home.html" style="padding: 10px 20px;">Home</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="about.html" style="padding: 10px 20px;">About</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" id="scrollLink" style="padding: 10px 20px;">Contact</a>
-</li>
-<li class="u-nav-item">
-    <a data-lang-toggle="ar" class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" style="padding: 10px 20px;">AR</a>
-</li>
-</ul>
-          </div>
-          <div class="u-nav-container-collapse">
-            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-              <div class="u-inner-container-layout u-sidenav-overflow">
-                <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html">Home</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="About.html">About</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" id="scrollLink" style="padding: 10px 20px;">Contact</a>
-</li>
-<li class="u-nav-item">
-    <a data-lang-toggle="ar" class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" style="padding: 10px 20px;">AR</a>
-</li>
-</ul>
-              </div>
+    /* Overridden styles for RTL */
+    body.rtl {
+      direction: rtl;
+      text-align: right;
+    }
+
+    body.rtl .u-header .u-image-1 {
+      direction: ltr !important;
+    }
+
+    body.rtl .u-header .u-menu-1 {
+      direction: ltr;
+    }
+
+    body.rtl .u-nav-container {
+      direction: rtl;
+
+    }
+
+    body.rtl .u-section-3 .u-layout-cell-1 {
+      text-align: right;
+    }
+
+    body.rtl .u-custom-list .u-list-icon {
+      right: -35px;
+    }
+
+    body.rtl .u-section-3 .u-text-3 {
+      text-align: right;
+
+    }
+
+    body.rtl .u-section-3 .u-text-1 {
+      text-align: right;
+      margin: 0;
+    }
+
+    body.rtl .u-section-3 .u-text-2 {
+      text-align: right;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    body.rtl #second-carousel2 {
+      direction: ltr;
+    }
+
+    body.rtl .u-section-5 .u-slider-1 {
+      min-height: 452px;
+      width: 563px;
+      height: auto;
+      margin: 58px auto 0px 579px !important;
+    }
+
+    body.rtl .u-section-5 .u-image-3 {
+      width: 391px;
+      height: 391px;
+      margin: -437px 760px 64px auto !important;
+    }
+  </style>
+</head>
+
+<body class="u-body u-xl-mode">
+
+  <!--particals-->
+
+  <!-- particles.js container -->
+  <div id="particles-js"></div> <!-- stats - count particles -->
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+  <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+  <script>particlesJS("particles-js", {
+      particles: {
+        number: { value: 50, density: { enable: true, value_area: 500 } },
+        color: { value: "random" },
+        shape: {
+          type: "circle",
+          stroke: { width: 0.2, color: "#000000" },
+          polygon: { nb_sides: 5 },
+          image: { src: "img/github.svg", width: 100, height: 100 }
+        },
+        opacity: {
+          value: 0.7,
+          random: false,
+          anim: { enable: true, speed: 0.6, opacity_min: 0.4, sync: false }
+        },
+        size: {
+          value: 1.8,
+          random: false,
+          anim: { enable: false, speed: 40, size_min: 0.1, sync: false }
+        },
+        line_linked: {
+          enable: true,
+          distance: 100,
+          color: "#a85e32",
+          opacity: 0.9,
+          width: 0.6
+        },
+        move: {
+          enable: true,
+          speed: 4,
+          direction: "none",
+          random: true,
+          straight: false,
+          out_mode: "out",
+          bounce: true,
+          attract: { enable: true, rotateX: 600, rotateY: 1200 }
+        }
+      },
+      interactivity: {
+        detect_on: "canvas",
+        events: {
+          onhover: { enable: true, mode: "grab" },
+
+          resize: true
+        },
+        modes: {
+          grab: { distance: 120, line_linked: { opacity: 3 } },
+          bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 },
+          repulse: { distance: 200, duration: 0.4 },
+          push: { particles_nb: 4 },
+          remove: { particles_nb: 2 }
+        }
+      },
+      retina_detect: true
+    });
+    var count_particles, stats, update;
+    stats = new Stats();
+    stats.setMode(0);
+    stats.domElement.style.position = "relative";
+    stats.domElement.style.left = "0px";
+    stats.domElement.style.top = "0px";
+    document.body.appendChild(stats.domElement);
+    count_particles = document.querySelector(".js-count-particles");
+    update = function () {
+      stats.begin();
+      stats.end();
+      if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+        count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+      }
+      requestAnimationFrame(update);
+    };
+    requestAnimationFrame(update);
+  </script>
+  <!--end--particals-->
+
+  <header style="z-index:10; background-color: aliceblue;" class="u-clearfix u-header u-header" id="sec-2e88">
+    <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+      <a href="#" class="u-image u-logo u-image-1">
+        <img src="images/default-logo.png" class="u-logo-image u-logo-image-1">
+      </a>
+      <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+        <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+          <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
+            href="#">
+            <svg class="u-svg-link" viewBox="0 0 24 24">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use>
+            </svg>
+            <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px"
+              xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+              <g>
+                <rect y="1" width="16" height="2"></rect>
+                <rect y="7" width="16" height="2"></rect>
+                <rect y="13" width="16" height="2"></rect>
+              </g>
+            </svg>
+          </a>
+        </div>
+        <div class="u-nav-container">
+          <ul class="u-nav u-unstyled u-nav-1">
+            <li class="u-nav-item"><a
+                class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
+                href="Home.html" style="padding: 10px 20px;">Home</a>
+            </li>
+            <li class="u-nav-item"><a
+                class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
+                href="about.html" style="padding: 10px 20px;">About</a>
+            </li>
+            <li class="u-nav-item"><a
+                class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#"
+                id="scrollLink" style="padding: 10px 20px;">Contact</a>
+            </li>
+            <li class="u-nav-item">
+              <a data-lang-toggle="ar"
+                class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#"
+                style="padding: 10px 20px;">AR</a>
+            </li>
+          </ul>
+        </div>
+        <div class="u-nav-container-collapse">
+          <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+            <div class="u-inner-container-layout u-sidenav-overflow">
+              <div class="u-menu-close"></div>
+              <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
+                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html">Home</a>
+                </li>
+                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="About.html">About</a>
+                </li>
+                <li class="u-nav-item"><a
+                    class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#"
+                    id="scrollLink" style="padding: 10px 20px;">Contact</a>
+                </li>
+                <li class="u-nav-item">
+                  <a data-lang-toggle="ar"
+                    class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#"
+                    style="padding: 10px 20px;">AR</a>
+                </li>
+              </ul>
             </div>
-            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
           </div>
-        </nav>
-      </div>
-	  </header>
-    <section class="u-clearfix u-white u-section-1 " id="sec-513e">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
-          <div class="u-layout" >
-            <div class="u-layout-row" >
-              <div class="u-align-center u-container-style u-image u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-image-1" src="" data-image-width="626" data-image-height="417">
-                <div class="u-container-layout u-valign-middle u-container-layout-1" src=""></div>
-              </div>
-              <div class="u-container-style u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-layout-cell-2" src="">
-                <div class="u-container-layout u-container-layout-2">
-                  <h2  class="u-align-center u-text u-text-default u-text-1"  data-lang="ar"  > تسويق براند نومانتس</h2>
-                  <h2 class="u-align-center u-text u-text-default u-text-1"   data-lang="en">Brand Nomants Markting </h2>
-                  <p  class="u-align-center u-text u-text-2" data-lang="ar">   وكالة متخصصة في التجارة الإلكترونية والتسويق في الدول الأوروبية وخاصة في ألمانيا. خدماتنا متنوعة وذات خبرة عالية في التجارة الإلكترونية ، وتتألف من فريق متكامل من مهندسين التصميم و صانعي المحتوى ومحترفي التصوير وفريق تسويق رقمي حول العالم يتمتع بخبرة عشر سنوات في أوروبا. </P>
+          <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
 
-                   <p class="u-align-center u-text u-text-2" data-lang="en">An agency specialized in e-commerce and marketing in European countries, especially in Germany. Our services are diverse and highly experienced in e-commerce, consisting of an integrated team of design engineers, content creators, photography professionals, and a digital marketing team around the world with a decade of experience in Europe.</p>
-                </div>
+  <section class="u-clearfix u-white u-section-1 " id="section1" style="  top:50%; overflow: hidden;
+   
+     ">
+
+    <div class="u-clearfix u-sheet u-sheet-1">
+      <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
+        <div class="u-layout">
+          <div class="u-layout-row" style="z-index:100; background-color: aliceblue;">
+            <div  
+              class="u-align-center u-container-style u-image u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-image-1"
+              src="images/moha.jpg" data-image-width="626" data-image-height="417">
+              <div class="u-container-layout u-valign-middle u-container-layout-1" src=""></div>
+            </div>
+            <div class="u-container-style u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-layout-cell-2" >
+              <div class="u-container-layout u-container-layout-2" >
+
+                <h2 class="u-align-center u-text u-text-default u-text-1"
+                  style=" font-family:sans-serif;;  color:rgb(42, 112, 242); white-space: nowrap;  z-index:10">Brand
+                  Nomants Markting </h2>
+                <p class="u-align-center u-text u-text-2" data-lang="ar" style="z-index:10">  وكـالة تسويـق متخصصة في مجـال التـجـارة الإلكتـرونية في الدول الأوروبية وخاصة في ألمانيا. خدماتنا متنوعة وذات خبرة عالية في التجارة الإلكترونية ، وتتألف من فريق متكامل من مهندسين التصميم و صانعي المحتوى ومحترفي التصوير وفريق تسويق رقمي حول العالم يتمتع بخبرة عشر سنوات في أوروبا. 
+
+                </P>
+
+                <p class="u-align-center u-text u-text-2" data-lang="en" style="z-index:10">We are a specialized marketing agency in the field of e-commerce, particularly in the European countries, with a strong focus on Germany. Our services are diverse and backed by extensive experience in e-commerce. Our team is composed of a comprehensive group of design engineers, content creators, professional photographers, and a global digital marketing team with ten years of experience in Europe.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="u-align-center u-clearfix u-section-2" id="sec-a37e"style="margin-top: 30px;max-height: 200px; ">
-      <div class="u-clearfix u-sheet u-sheet-1">
+    </div>
+  </section>
+  <section class="u-align-center u-clearfix u-section-2" id="section2"  >
+    <div class="u-clearfix u-sheet u-sheet-1">
 
-				<div class="owl-carousel owl-theme" id="second-carousel" >
-          <div class="item" style="max-height: 50px;"><img src="images/amazon.png" alt="404"></div>	
-          <div class="item" style="max-height: 50px;"><img src="images/ebay.png" alt="404"></div>	
-          <div class="item" style="max-height: 50px;"><img src="images/flipkart.png" alt="404"></div>	
-          <div class="item" style="max-height: 50px;"><img src="images/walmart.png" alt="404"></div>
-</div>   
-   </div>
-    </section>
-
-    <section class="u-align-center u-clearfix u-section-2" style="margin-bottom: -5%;" id="sec-a37e">
-      <div class="u-clearfix u-sheet u-sheet-1">
-<!--
-				<div class="owl-carousel owl-theme" id="second-carousel2">
-    <div class="item"><img src="images/yout.webp" alt=""></div>
-    <div class="item"><img src="images/yout.webp" alt=""></div>
-    <div class="item"><img src="images/yout.webp" alt=""></div>
-    <div class="item"><img src="images/yout.webp" alt=""></div>
-    <div class="item"><img src="images/yout.webp" alt=""></div>
-    <div class="item"><img src="images/yout.webp" alt=""></div>
-    <div class="item"><img src="images/yout.webp" alt=""></div>
-    <div class="item"><img src="images/yout.webp" alt=""></div>
-    <div class="item"><img src="images/yout.webp" alt=""></div>
-    <div class="item"><img src="images/yout.webp" alt=""></div>
-    <div class="item"><img src="images/yout.webp" alt=""></div>
-</div>   
-   </div>-->
-    </section>
-
-<!--
-    <section class="u-clearfix u-palette-1-light-3 u-section-3"  style="margin: 0%;"id="carousel_1a57">
-      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-sheet-1">
-        <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
-          <div class="u-layout">
-            <div class="u-layout-row">
-			              <div class="u-container-align-center u-container-style u-image u-layout-cell u-size-30 u-image-1" data-image-width="1920" data-image-height="1310">
-                <div class="u-container-layout u-container-layout-2"></div>
-              </div>
-              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
-                <div class="u-container-layout u-valign-middle u-container-layout-1">
-                  <h3 class="u-align-left u-custom-font u-font-montserrat u-text u-text-default u-text-1"data-lang="en">About us</h3>
-                  <h3 class="u-align-left u-custom-font u-font-montserrat u-text u-text-default u-text-1" data-lang="ar">من نحن</h3>
-                  <h2 class="u-align-left u-text u-text-default u-text-2" data-lang="en"> Ready to get  started? </h2>
-
-                  <h2 class="u-align-left u-text u-text-default u-text-2" data-lang="ar"> هل أنت مستعد   للبدء؟ </h2>
-
-
-                  <p class="u-align-left u-text u-text-default u-text-3" data-lang="ar"> وكالة متخصصة في التجارة الإلكترونية والتسويق في الدول الأوروبية وخاصة في ألمانيا. خدماتنا متنوعة وذات خبرة عالية في التجارة الإلكترونية ، وتتألف من فريق متكامل من مهندسين التصميم و صانعي المحتوى ومحترفي التصوير وفريق تسويق رقمي حول العالم يتمتع بخبرة عشر سنوات في أوروبا&nbsp;</p>
-                  <p class="u-align-left u-text u-text-default u-text-3" data-lang="en"> An agency specialized in e-commerce and marketing in European countries, especially in Germany. Our services are diverse and highly experienced in e-commerce, consisting of an integrated team of design engineers, content creators, photography professionals, and a digital marketing team around the world with ten years of experience in Europe.&nbsp;</p>
-                   
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
+      <div class="owl-carousel owl-theme" id="second-carousel">
+        <div class="item" style="max-height: 50px;"><img src="images/LOGOS_MAR/LOGOS_MARal.png" alt="404"></div>
+        <div class="item" style="max-height: 50px;"><img src="images/LOGOS_MAR/amazon.png" alt="404"></div>
+        <div class="item" style="max-height: 50px;"><img src="images/LOGOS_MAR/LOGOS_MARbo.png" alt="404"></div>
+        <div class="item" style="max-height: 50px;"><img src="images/LOGOS_MAR/LOGOS_MARcd.png" alt="404"></div>
+        <div class="item" style="max-height: 50px;"><img src="images/LOGOS_MAR/LOGOS_MARka.png" alt="404"></div>
+        <div class="item" style="max-height: 50px;"><img src="images/LOGOS_MAR/LOGOS_MARmo.png" alt="404"></div>
+        <div class="item" style="max-height: 50px;"><img src="images/LOGOS_MAR/LOGOS_MARot.jpg" alt="404"></div>
+        <div class="item" style="max-height: 50px;"><img src="images/LOGOS_MAR/LOGOS_MARwa.png" alt="404"></div>
       </div>
-    </section>-->
-    <section class="u-align-center u-border-2 u-border-grey-75 u-clearfix u-section-4" style="border: none;" id="sec-7160">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <h2 class="u-text u-text-default u-text-1" data-lang="en">Our services</h2>
-        <p class="u-text u-text-default u-text-2" data-lang="en">  We create, build, buy, and expand brands globally,We are the future partner, together we can. </p>
-        <h2 class="u-text u-text-default u-text-1" data-lang="ar">خدماتنا</h2>
-        <p class="u-text u-text-default u-text-2" data-lang="ar">نحن نصنع ونبني ونشتري ونوسع العلامات التجارية على مستوى العالم 
+    </div>
+  </section>
 
-          نحن شريك المستقبلي معا نستطيع </p>
-       
-        <div class="u-list u-list-1">
-          <div class="u-repeater u-repeater-1">
+  <section class="u-align-center u-border-2 u-border-grey-75 u-clearfix u-section-4" style="border: none;"
+    id="section3">
+    <div class="u-clearfix u-sheet u-sheet-1">
+      <h2 class="u-text u-text-default u-text-1" data-lang="en">Our services</h2>
+      <p class="u-text u-text-default u-text-2" data-lang="en"> We create, build, buy, and expand brands globally,We are
+        the future partner, together we can. </p>
+      <h2 class="u-text u-text-default u-text-1" data-lang="ar">خدماتنا</h2>
+      <p class="u-text u-text-default u-text-2" data-lang="ar">نحن نصنع ونبني ونشتري ونوسع العلامات التجارية على مستوى
+        العالم
 
-<!--first servise div-->
-            <a href="Page-1.html">
-            <div id = "hey" class="u-container-style u-gradient u-hover-feature u-list-item u-repeater-item u-shape-rectangle u-list-item-1">
-              <div class="u-container-layout u-similar-container u-container-layout-1" ><span class="u-icon u-icon-circle u-palette-1-light-2 u-text-white u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1010"></use></svg><svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-1010" style="enable-background:new 0 0 512 512;"><g><g><path d="M480,143.686H378.752c7.264-4.96,13.504-9.888,17.856-14.304c25.792-25.952,25.792-68.192,0-94.144    c-25.056-25.216-68.768-25.248-93.856,0c-13.856,13.92-50.688,70.592-45.6,108.448h-2.304    c5.056-37.856-31.744-94.528-45.6-108.448c-25.088-25.248-68.8-25.216-93.856,0C89.6,61.19,89.6,103.43,115.36,129.382    c4.384,4.416,10.624,9.344,17.888,14.304H32c-17.632,0-32,14.368-32,32v80c0,8.832,7.168,16,16,16h16v192    c0,17.632,14.368,32,32,32h384c17.632,0,32-14.368,32-32v-192h16c8.832,0,16-7.168,16-16v-80    C512,158.054,497.632,143.686,480,143.686z M138.08,57.798c6.496-6.528,15.104-10.112,24.256-10.112    c9.12,0,17.728,3.584,24.224,10.112c21.568,21.696,43.008,77.12,35.552,84.832c0,0-1.344,1.056-5.92,1.056    c-22.112,0-64.32-22.976-78.112-36.864C124.672,93.318,124.672,71.302,138.08,57.798z M240,463.686H64v-192h176V463.686z     M240,239.686H32v-64h184.192H240V239.686z M325.44,57.798c12.992-13.024,35.52-12.992,48.48,0    c13.408,13.504,13.408,35.52,0,49.024c-13.792,13.888-56,36.864-78.112,36.864c-4.576,0-5.92-1.024-5.952-1.056    C282.432,134.918,303.872,79.494,325.44,57.798z M448,463.686H272v-192h176V463.686z M480,239.686H272v-64h23.808H480V239.686z"></path>
-</g>
-</g></svg>
-            
-            
-          </span>
-                <h3 class="u-align-center u-text u-text-default u-text-3" data-lang="ar">إبنى منتجك وعلامتك التجارية من الصفر</h3>
-                <p class="u-align-center u-text u-text-default u-text-4" data-lang="ar"> نحن نساعدك ونمولك لإنتاج منتجك ودراسه جدوي عن مدي نجاحه بالأسواق العربيه والاوروبيه ثم تسويقه وبيعه حول العالم.</p>
-                <h3 class="u-align-center u-text u-text-default u-text-3" data-lang="en">Build Your Product and Brand from Scratch</h3>
-                <p class="u-align-center u-text u-text-default u-text-4" data-lang="en">We assist and fund you to produce your product, conduct feasibility studies on its success in Arab and European markets, and then market and sell it around the world.</p>
-                
-             
-             
+        نحن شريك المستقبلي معا نستطيع </p>
+
+      <div class="u-list u-list-1">
+        <div class="u-repeater u-repeater-1">
+
+          <!--first servise div-->
+          <a href="Page-1.html">
+            <div id="hey"
+              class="u-container-style u-gradient u-hover-feature u-list-item u-repeater-item u-shape-rectangle u-list-item-1">
+              <div class="u-container-layout u-similar-container u-container-layout-1"><span
+                  class="u-icon u-icon-circle u-palette-1-light-2 u-text-white u-icon-1"><svg class="u-svg-link"
+                    preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1010"></use>
+                  </svg><svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-1010"
+                    style="enable-background:new 0 0 512 512;">
+                    <g>
+                      <g>
+                        <path
+                          d="M480,143.686H378.752c7.264-4.96,13.504-9.888,17.856-14.304c25.792-25.952,25.792-68.192,0-94.144    c-25.056-25.216-68.768-25.248-93.856,0c-13.856,13.92-50.688,70.592-45.6,108.448h-2.304    c5.056-37.856-31.744-94.528-45.6-108.448c-25.088-25.248-68.8-25.216-93.856,0C89.6,61.19,89.6,103.43,115.36,129.382    c4.384,4.416,10.624,9.344,17.888,14.304H32c-17.632,0-32,14.368-32,32v80c0,8.832,7.168,16,16,16h16v192    c0,17.632,14.368,32,32,32h384c17.632,0,32-14.368,32-32v-192h16c8.832,0,16-7.168,16-16v-80    C512,158.054,497.632,143.686,480,143.686z M138.08,57.798c6.496-6.528,15.104-10.112,24.256-10.112    c9.12,0,17.728,3.584,24.224,10.112c21.568,21.696,43.008,77.12,35.552,84.832c0,0-1.344,1.056-5.92,1.056    c-22.112,0-64.32-22.976-78.112-36.864C124.672,93.318,124.672,71.302,138.08,57.798z M240,463.686H64v-192h176V463.686z     M240,239.686H32v-64h184.192H240V239.686z M325.44,57.798c12.992-13.024,35.52-12.992,48.48,0    c13.408,13.504,13.408,35.52,0,49.024c-13.792,13.888-56,36.864-78.112,36.864c-4.576,0-5.92-1.024-5.952-1.056    C282.432,134.918,303.872,79.494,325.44,57.798z M448,463.686H272v-192h176V463.686z M480,239.686H272v-64h23.808H480V239.686z">
+                        </path>
+                      </g>
+                    </g>
+                  </svg>
+
+
+                </span>
+                <h3 class="u-align-center u-text u-text-default u-text-3" data-lang="ar">إبنى منتجك وعلامتك التجارية من
+                  الصفر</h3>
+                <p class="u-align-center u-text u-text-default u-text-4" data-lang="ar"> نحن نساعدك ونمولك لإنتاج منتجك
+                  ودراسه جدوي عن مدي نجاحه بالأسواق العربيه والاوروبيه ثم تسويقه وبيعه حول العالم.</p>
+                <h3 class="u-align-center u-text u-text-default u-text-3" data-lang="en">Build Your Product and Brand
+                  from Scratch</h3>
+                <p class="u-align-center u-text u-text-default u-text-4" data-lang="en">We assist and fund you to
+                  produce your product, conduct feasibility studies on its success in Arab and European markets, and
+                  then market and sell it around the world.</p>
+
+
+
               </div>
-            </div></a> <!-- end of first servise div-->
-  <!--second servise div-->
-            <a href="Page-2.html">
-            <div id = "hey" class="u-align-center u-container-style u-gradient u-hover-feature u-list-item u-repeater-item u-shape-rectangle u-list-item-2">
-              <div class="u-container-layout u-similar-container u-container-layout-2" ><span class="u-icon u-icon-circle u-palette-1-light-2 u-text-white u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512.002 512.002" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-c0b4"></use></svg><svg class="u-svg-content" viewBox="0 0 512.002 512.002" x="0px" y="0px" id="svg-c0b4" style="enable-background:new 0 0 512.002 512.002;"><g><g><path d="M512.001,255.969c-0.011-5.193-2.708-10.011-7.129-12.737l-52.034-32.076l52.089-32.421    c4.393-2.734,7.066-7.539,7.074-12.712c0.008-5.174-2.651-9.987-7.036-12.734l-241-151c-4.871-3.052-11.058-3.052-15.929,0    l-241,151c-4.384,2.747-7.043,7.56-7.036,12.734c0.008,5.174,2.681,9.979,7.074,12.712l51.732,32.198L7.051,243.282    c-4.39,2.744-7.055,7.557-7.05,12.734c0.005,5.177,2.679,9.985,7.074,12.721l51.732,32.198L7.051,333.282    c-4.383,2.74-7.047,7.543-7.05,12.712s2.656,9.975,7.036,12.719l241,151c2.436,1.526,5.2,2.289,7.964,2.289    c2.764,0,5.529-0.763,7.964-2.289l241-151c4.394-2.753,7.055-7.581,7.036-12.766c-0.019-5.185-2.715-9.993-7.129-12.714    l-52.034-32.076l52.089-32.421C509.336,265.992,512.012,261.162,512.001,255.969z M43.32,165.96L256.001,32.703L468.682,165.96    c-2.044,1.272-206.586,128.58-212.681,132.374L43.32,165.96z M468.584,346.106L256.001,479.301L43.278,346.018l43.889-27.431    l160.908,100.15c2.426,1.51,5.176,2.265,7.926,2.265c2.75,0,5.5-0.755,7.926-2.265l160.464-99.874L468.584,346.106z     M256.001,388.334L43.345,255.976l43.822-27.389l160.908,100.15c2.426,1.51,5.176,2.265,7.926,2.265c2.75,0,5.5-0.755,7.926-2.265    l160.464-99.874l44.125,27.2C467.297,256.822,261.631,384.829,256.001,388.334z"></path>
-</g>
-</g></svg>
-            
-            
-          </span>
+            </div>
+          </a> <!-- end of first servise div-->
+          <!--second servise div-->
+          <a href="Page-2.html">
+            <div id="hey"
+              class="u-align-center u-container-style u-gradient u-hover-feature u-list-item u-repeater-item u-shape-rectangle u-list-item-2">
+              <div class="u-container-layout u-similar-container u-container-layout-2"><span
+                  class="u-icon u-icon-circle u-palette-1-light-2 u-text-white u-icon-2"><svg class="u-svg-link"
+                    preserveAspectRatio="xMidYMin slice" viewBox="0 0 512.002 512.002" style="">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-c0b4"></use>
+                  </svg><svg class="u-svg-content" viewBox="0 0 512.002 512.002" x="0px" y="0px" id="svg-c0b4"
+                    style="enable-background:new 0 0 512.002 512.002;">
+                    <g>
+                      <g>
+                        <path
+                          d="M512.001,255.969c-0.011-5.193-2.708-10.011-7.129-12.737l-52.034-32.076l52.089-32.421    c4.393-2.734,7.066-7.539,7.074-12.712c0.008-5.174-2.651-9.987-7.036-12.734l-241-151c-4.871-3.052-11.058-3.052-15.929,0    l-241,151c-4.384,2.747-7.043,7.56-7.036,12.734c0.008,5.174,2.681,9.979,7.074,12.712l51.732,32.198L7.051,243.282    c-4.39,2.744-7.055,7.557-7.05,12.734c0.005,5.177,2.679,9.985,7.074,12.721l51.732,32.198L7.051,333.282    c-4.383,2.74-7.047,7.543-7.05,12.712s2.656,9.975,7.036,12.719l241,151c2.436,1.526,5.2,2.289,7.964,2.289    c2.764,0,5.529-0.763,7.964-2.289l241-151c4.394-2.753,7.055-7.581,7.036-12.766c-0.019-5.185-2.715-9.993-7.129-12.714    l-52.034-32.076l52.089-32.421C509.336,265.992,512.012,261.162,512.001,255.969z M43.32,165.96L256.001,32.703L468.682,165.96    c-2.044,1.272-206.586,128.58-212.681,132.374L43.32,165.96z M468.584,346.106L256.001,479.301L43.278,346.018l43.889-27.431    l160.908,100.15c2.426,1.51,5.176,2.265,7.926,2.265c2.75,0,5.5-0.755,7.926-2.265l160.464-99.874L468.584,346.106z     M256.001,388.334L43.345,255.976l43.822-27.389l160.908,100.15c2.426,1.51,5.176,2.265,7.926,2.265c2.75,0,5.5-0.755,7.926-2.265    l160.464-99.874l44.125,27.2C467.297,256.822,261.631,384.829,256.001,388.334z">
+                        </path>
+                      </g>
+                    </g>
+                  </svg>
+
+
+                </span>
                 <h3 class="u-align-center u-text u-text-default u-text-5" data-lang="ar">كن عالميا </h3>
-                <p class="u-align-center u-text u-text-default u-text-6" data-lang="ar">اذا كان لديك منتج بالفعل وتريد البيع عالميا. نحن نساعدك في دخول المنتج للأسواق العالمية مع انشاء المحتوي والفيديو وتحسين محركات البحث للمنتج والحملات التسويقية وخدمات اللوجيستك فى كل بلاد العالم</p>
+                <p class="u-align-center u-text u-text-default u-text-6" data-lang="ar">اذا كان لديك منتج بالفعل وتريد
+                  البيع عالميا. نحن نساعدك في دخول المنتج للأسواق العالمية مع انشاء المحتوي والفيديو وتحسين محركات البحث
+                  للمنتج والحملات التسويقية وخدمات اللوجيستك فى كل بلاد العالم</p>
                 <h3 class="u-align-center u-text u-text-default u-text-5" data-lang="en">Be Global</h3>
-                <p class="u-align-center u-text u-text-default u-text-6" data-lang="en">If you already have a product and want to sell globally, we help you enter global markets by creating content, videos, improving search engine optimization for the product, running marketing campaigns, and providing logistics services in countries around the world.</p>
-                
-            
+                <p class="u-align-center u-text u-text-default u-text-6" data-lang="en">If you already have a product
+                  and want to sell globally, we help you enter global markets by creating content, videos, improving
+                  search engine optimization for the product, running marketing campaigns, and providing logistics
+                  services in countries around the world.</p>
+
+
               </div>
-            </div></a> <!--end of second servise div-->
+            </div>
+          </a> <!--end of second servise div-->
 
 
-           <!--third servise div-->
-            <a href="Page-3.html">
-            <div id = "hey" class="u-align-center u-container-style u-gradient u-hover-feature u-list-item u-repeater-item u-shape-rectangle u-list-item-3">
-              <div class="u-container-layout u-similar-container u-container-layout-3" ><span class="u-icon u-icon-circle u-palette-1-light-2 u-text-white u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7be1"></use></svg><svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-7be1" style="enable-background:new 0 0 512 512;"><g><g><path d="M256,0C144.702,0,54.154,90.547,54.154,201.846c0,69.363,35.172,130.662,88.615,167.011v128.373    c0,5.012,2.541,9.682,6.75,12.402c4.207,2.721,9.509,3.121,14.08,1.066L256,469.119l92.401,41.58c1.935,0.87,4,1.301,6.059,1.301    c2.804,0,5.594-0.798,8.021-2.367c4.208-2.721,6.75-7.391,6.75-12.402V368.858c53.443-36.349,88.615-97.648,88.615-167.011    C457.846,90.547,367.298,0,256,0z M339.692,474.39l-77.632-34.934c-1.927-0.868-3.994-1.302-6.06-1.302s-4.133,0.433-6.06,1.301    l-77.632,34.934v-88.835c7.423,3.384,15.042,6.292,22.805,8.745c0.44,0.14,0.879,0.283,1.321,0.419    c0.991,0.305,1.985,0.599,2.98,0.888c0.737,0.216,1.474,0.43,2.213,0.638c0.803,0.224,1.609,0.441,2.415,0.655    c0.94,0.251,1.882,0.496,2.827,0.734c0.668,0.167,1.337,0.331,2.007,0.49c1.087,0.261,2.177,0.513,3.271,0.756    c0.567,0.126,1.135,0.251,1.703,0.372c1.198,0.256,2.4,0.498,3.607,0.733c0.491,0.095,0.982,0.192,1.474,0.284    c1.278,0.238,2.561,0.461,3.847,0.675c0.441,0.074,0.882,0.15,1.324,0.22c1.327,0.212,2.66,0.407,3.997,0.592    c0.414,0.057,0.827,0.119,1.241,0.174c1.353,0.179,2.712,0.34,4.072,0.492c0.406,0.045,0.81,0.096,1.216,0.14    c1.357,0.144,2.719,0.267,4.084,0.383c0.414,0.035,0.826,0.078,1.241,0.11c1.345,0.106,2.696,0.191,4.049,0.271    c0.434,0.026,0.866,0.06,1.302,0.083c1.367,0.072,2.739,0.121,4.113,0.165c0.414,0.014,0.825,0.036,1.239,0.047    c1.776,0.046,3.558,0.072,5.346,0.072c1.787,0,3.569-0.026,5.345-0.072c0.414-0.011,0.825-0.033,1.239-0.047    c1.374-0.044,2.746-0.094,4.113-0.165c0.434-0.023,0.867-0.057,1.302-0.083c1.353-0.08,2.704-0.164,4.049-0.271    c0.415-0.032,0.827-0.075,1.241-0.11c1.365-0.116,2.727-0.24,4.084-0.383c0.406-0.043,0.81-0.094,1.216-0.14    c1.361-0.153,2.719-0.313,4.072-0.492c0.415-0.055,0.827-0.116,1.241-0.174c1.336-0.185,2.669-0.38,3.997-0.592    c0.442-0.071,0.882-0.147,1.324-0.22c1.286-0.214,2.569-0.437,3.847-0.675c0.492-0.092,0.983-0.188,1.474-0.284    c1.206-0.234,2.408-0.478,3.607-0.733c0.569-0.121,1.136-0.246,1.703-0.372c1.094-0.243,2.184-0.495,3.271-0.756    c0.669-0.16,1.338-0.324,2.007-0.49c0.945-0.237,1.886-0.482,2.827-0.734c0.806-0.215,1.612-0.43,2.415-0.655    c0.739-0.208,1.477-0.422,2.213-0.638c0.995-0.29,1.99-0.583,2.98-0.888c0.442-0.137,0.881-0.28,1.321-0.419    c7.763-2.453,15.382-5.36,22.805-8.744V474.39z M312.229,364.724c-0.589,0.203-1.178,0.407-1.769,0.604    c-0.898,0.3-1.8,0.595-2.705,0.88c-1.053,0.331-2.109,0.65-3.168,0.96c-0.747,0.22-1.495,0.439-2.246,0.649    c-1.401,0.391-2.807,0.765-4.218,1.12c-0.526,0.133-1.054,0.259-1.581,0.387c-1.381,0.334-2.768,0.652-4.158,0.952    c-0.35,0.076-0.697,0.156-1.047,0.228c-1.794,0.375-3.594,0.724-5.401,1.041c-0.184,0.032-0.369,0.06-0.554,0.093    c-1.628,0.281-3.261,0.536-4.897,0.769c-0.369,0.053-0.738,0.105-1.109,0.156c-1.745,0.237-3.493,0.455-5.247,0.639    c-0.066,0.007-0.132,0.016-0.198,0.023c-1.836,0.191-3.679,0.348-5.524,0.479c-0.4,0.029-0.802,0.05-1.203,0.077    c-1.435,0.093-2.87,0.166-4.309,0.224c-0.489,0.02-0.978,0.04-1.467,0.056c-1.807,0.055-3.616,0.093-5.428,0.093    s-3.621-0.037-5.428-0.095c-0.49-0.015-0.979-0.036-1.467-0.056c-1.439-0.057-2.874-0.131-4.309-0.224    c-0.401-0.026-0.802-0.048-1.203-0.077c-1.845-0.132-3.687-0.289-5.524-0.479c-0.066-0.007-0.132-0.016-0.198-0.023    c-1.754-0.184-3.502-0.402-5.247-0.639c-0.369-0.05-0.738-0.102-1.108-0.156c-1.637-0.234-3.27-0.488-4.898-0.769    c-0.184-0.031-0.369-0.06-0.554-0.093c-1.807-0.317-3.608-0.667-5.401-1.041c-0.349-0.073-0.697-0.154-1.047-0.228    c-1.39-0.299-2.777-0.618-4.158-0.952c-0.528-0.128-1.056-0.254-1.581-0.387c-1.411-0.354-2.817-0.73-4.218-1.12    c-0.751-0.21-1.499-0.429-2.246-0.649c-1.058-0.311-2.115-0.629-3.169-0.96c-0.905-0.286-1.806-0.58-2.705-0.88    c-0.592-0.197-1.181-0.401-1.769-0.604c-67.484-23.361-116.078-87.547-116.078-162.876c0-95.01,77.297-172.308,172.308-172.308    s172.308,77.297,172.308,172.308C428.308,277.175,379.713,341.361,312.229,364.724z"></path>
-</g>
-</g><g><g><path d="M343.622,201.846l27.741-52.14c2.394-4.497,2.299-9.91-0.248-14.321c-2.547-4.411-7.188-7.2-12.279-7.376l-59.025-2.045    L268.527,75.87c-2.699-4.32-7.433-6.946-12.527-6.946s-9.828,2.626-12.527,6.946l-31.283,50.094l-59.025,2.045    c-5.091,0.176-9.732,2.965-12.279,7.376s-2.642,9.824-0.248,14.321l27.741,52.14l-27.741,52.14    c-2.394,4.497-2.299,9.91,0.248,14.321c2.547,4.411,7.188,7.2,12.279,7.376l59.025,2.045l31.283,50.094    c2.698,4.32,7.433,6.946,12.527,6.946s9.828-2.626,12.527-6.946l31.283-50.094l59.025-2.045c5.091-0.176,9.732-2.965,12.279-7.376    c2.547-4.411,2.642-9.824,0.248-14.321L343.622,201.846z M290.935,248.479c-4.909,0.17-9.414,2.771-12.015,6.938L256,292.118    l-22.919-36.7c-2.602-4.167-7.106-6.767-12.015-6.938l-43.242-1.499l20.323-38.198c2.308-4.337,2.308-9.537,0-13.874    l-20.323-38.198l43.242-1.499c4.909-0.17,9.414-2.771,12.015-6.938L256,111.575l22.919,36.7c2.602,4.167,7.106,6.767,12.015,6.938    l43.242,1.499l-20.323,38.198c-2.307,4.337-2.307,9.538,0.001,13.874l20.323,38.198L290.935,248.479z"></path>
-</g>
-</g></svg><!--end of third servise div-->
-            
-</span>
+          <!--third servise div-->
+          <a href="Page-3.html">
+            <div id="hey"
+              class="u-align-center u-container-style u-gradient u-hover-feature u-list-item u-repeater-item u-shape-rectangle u-list-item-3">
+              <div class="u-container-layout u-similar-container u-container-layout-3"><span
+                  class="u-icon u-icon-circle u-palette-1-light-2 u-text-white u-icon-3"><svg class="u-svg-link"
+                    preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7be1"></use>
+                  </svg><svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-7be1"
+                    style="enable-background:new 0 0 512 512;">
+                    <g>
+                      <g>
+                        <path
+                          d="M256,0C144.702,0,54.154,90.547,54.154,201.846c0,69.363,35.172,130.662,88.615,167.011v128.373    c0,5.012,2.541,9.682,6.75,12.402c4.207,2.721,9.509,3.121,14.08,1.066L256,469.119l92.401,41.58c1.935,0.87,4,1.301,6.059,1.301    c2.804,0,5.594-0.798,8.021-2.367c4.208-2.721,6.75-7.391,6.75-12.402V368.858c53.443-36.349,88.615-97.648,88.615-167.011    C457.846,90.547,367.298,0,256,0z M339.692,474.39l-77.632-34.934c-1.927-0.868-3.994-1.302-6.06-1.302s-4.133,0.433-6.06,1.301    l-77.632,34.934v-88.835c7.423,3.384,15.042,6.292,22.805,8.745c0.44,0.14,0.879,0.283,1.321,0.419    c0.991,0.305,1.985,0.599,2.98,0.888c0.737,0.216,1.474,0.43,2.213,0.638c0.803,0.224,1.609,0.441,2.415,0.655    c0.94,0.251,1.882,0.496,2.827,0.734c0.668,0.167,1.337,0.331,2.007,0.49c1.087,0.261,2.177,0.513,3.271,0.756    c0.567,0.126,1.135,0.251,1.703,0.372c1.198,0.256,2.4,0.498,3.607,0.733c0.491,0.095,0.982,0.192,1.474,0.284    c1.278,0.238,2.561,0.461,3.847,0.675c0.441,0.074,0.882,0.15,1.324,0.22c1.327,0.212,2.66,0.407,3.997,0.592    c0.414,0.057,0.827,0.119,1.241,0.174c1.353,0.179,2.712,0.34,4.072,0.492c0.406,0.045,0.81,0.096,1.216,0.14    c1.357,0.144,2.719,0.267,4.084,0.383c0.414,0.035,0.826,0.078,1.241,0.11c1.345,0.106,2.696,0.191,4.049,0.271    c0.434,0.026,0.866,0.06,1.302,0.083c1.367,0.072,2.739,0.121,4.113,0.165c0.414,0.014,0.825,0.036,1.239,0.047    c1.776,0.046,3.558,0.072,5.346,0.072c1.787,0,3.569-0.026,5.345-0.072c0.414-0.011,0.825-0.033,1.239-0.047    c1.374-0.044,2.746-0.094,4.113-0.165c0.434-0.023,0.867-0.057,1.302-0.083c1.353-0.08,2.704-0.164,4.049-0.271    c0.415-0.032,0.827-0.075,1.241-0.11c1.365-0.116,2.727-0.24,4.084-0.383c0.406-0.043,0.81-0.094,1.216-0.14    c1.361-0.153,2.719-0.313,4.072-0.492c0.415-0.055,0.827-0.116,1.241-0.174c1.336-0.185,2.669-0.38,3.997-0.592    c0.442-0.071,0.882-0.147,1.324-0.22c1.286-0.214,2.569-0.437,3.847-0.675c0.492-0.092,0.983-0.188,1.474-0.284    c1.206-0.234,2.408-0.478,3.607-0.733c0.569-0.121,1.136-0.246,1.703-0.372c1.094-0.243,2.184-0.495,3.271-0.756    c0.669-0.16,1.338-0.324,2.007-0.49c0.945-0.237,1.886-0.482,2.827-0.734c0.806-0.215,1.612-0.43,2.415-0.655    c0.739-0.208,1.477-0.422,2.213-0.638c0.995-0.29,1.99-0.583,2.98-0.888c0.442-0.137,0.881-0.28,1.321-0.419    c7.763-2.453,15.382-5.36,22.805-8.744V474.39z M312.229,364.724c-0.589,0.203-1.178,0.407-1.769,0.604    c-0.898,0.3-1.8,0.595-2.705,0.88c-1.053,0.331-2.109,0.65-3.168,0.96c-0.747,0.22-1.495,0.439-2.246,0.649    c-1.401,0.391-2.807,0.765-4.218,1.12c-0.526,0.133-1.054,0.259-1.581,0.387c-1.381,0.334-2.768,0.652-4.158,0.952    c-0.35,0.076-0.697,0.156-1.047,0.228c-1.794,0.375-3.594,0.724-5.401,1.041c-0.184,0.032-0.369,0.06-0.554,0.093    c-1.628,0.281-3.261,0.536-4.897,0.769c-0.369,0.053-0.738,0.105-1.109,0.156c-1.745,0.237-3.493,0.455-5.247,0.639    c-0.066,0.007-0.132,0.016-0.198,0.023c-1.836,0.191-3.679,0.348-5.524,0.479c-0.4,0.029-0.802,0.05-1.203,0.077    c-1.435,0.093-2.87,0.166-4.309,0.224c-0.489,0.02-0.978,0.04-1.467,0.056c-1.807,0.055-3.616,0.093-5.428,0.093    s-3.621-0.037-5.428-0.095c-0.49-0.015-0.979-0.036-1.467-0.056c-1.439-0.057-2.874-0.131-4.309-0.224    c-0.401-0.026-0.802-0.048-1.203-0.077c-1.845-0.132-3.687-0.289-5.524-0.479c-0.066-0.007-0.132-0.016-0.198-0.023    c-1.754-0.184-3.502-0.402-5.247-0.639c-0.369-0.05-0.738-0.102-1.108-0.156c-1.637-0.234-3.27-0.488-4.898-0.769    c-0.184-0.031-0.369-0.06-0.554-0.093c-1.807-0.317-3.608-0.667-5.401-1.041c-0.349-0.073-0.697-0.154-1.047-0.228    c-1.39-0.299-2.777-0.618-4.158-0.952c-0.528-0.128-1.056-0.254-1.581-0.387c-1.411-0.354-2.817-0.73-4.218-1.12    c-0.751-0.21-1.499-0.429-2.246-0.649c-1.058-0.311-2.115-0.629-3.169-0.96c-0.905-0.286-1.806-0.58-2.705-0.88    c-0.592-0.197-1.181-0.401-1.769-0.604c-67.484-23.361-116.078-87.547-116.078-162.876c0-95.01,77.297-172.308,172.308-172.308    s172.308,77.297,172.308,172.308C428.308,277.175,379.713,341.361,312.229,364.724z">
+                        </path>
+                      </g>
+                    </g>
+                    <g>
+                      <g>
+                        <path
+                          d="M343.622,201.846l27.741-52.14c2.394-4.497,2.299-9.91-0.248-14.321c-2.547-4.411-7.188-7.2-12.279-7.376l-59.025-2.045    L268.527,75.87c-2.699-4.32-7.433-6.946-12.527-6.946s-9.828,2.626-12.527,6.946l-31.283,50.094l-59.025,2.045    c-5.091,0.176-9.732,2.965-12.279,7.376s-2.642,9.824-0.248,14.321l27.741,52.14l-27.741,52.14    c-2.394,4.497-2.299,9.91,0.248,14.321c2.547,4.411,7.188,7.2,12.279,7.376l59.025,2.045l31.283,50.094    c2.698,4.32,7.433,6.946,12.527,6.946s9.828-2.626,12.527-6.946l31.283-50.094l59.025-2.045c5.091-0.176,9.732-2.965,12.279-7.376    c2.547-4.411,2.642-9.824,0.248-14.321L343.622,201.846z M290.935,248.479c-4.909,0.17-9.414,2.771-12.015,6.938L256,292.118    l-22.919-36.7c-2.602-4.167-7.106-6.767-12.015-6.938l-43.242-1.499l20.323-38.198c2.308-4.337,2.308-9.537,0-13.874    l-20.323-38.198l43.242-1.499c4.909-0.17,9.414-2.771,12.015-6.938L256,111.575l22.919,36.7c2.602,4.167,7.106,6.767,12.015,6.938    l43.242,1.499l-20.323,38.198c-2.307,4.337-2.307,9.538,0.001,13.874l20.323,38.198L290.935,248.479z">
+                        </path>
+                      </g>
+                    </g>
+                  </svg><!--end of third servise div-->
+
+                </span>
 
 
-  
+
                 <h3 class="u-align-center u-text u-text-default u-text-7" data-lang="ar">كن محترفا في اوروبا</h3>
-                <p class="u-align-center u-text u-text-default u-text-8"> <span id="short-text" data-lang="ar">مع قله المبيعات. توقف عن إضاعة الوقت والمال في الحملات الإعلانية الخاطئة وغير الفعالة ودعنا نتولي الامر مع ضمانات زياده الارباح وزياده ظهور منتجك علي الاسواق الاليكترونيه </span></p>
-                <h3 class="u-align-center u-text u-text-default u-text-7" data-lang="en">Be a Professional in Europe</h3>
-                <p class="u-align-center u-text u-text-default u-text-8"> 
-                  <span id="short-text" data-lang="en">With declining sales, stop wasting time and money on ineffective and wrong advertising campaigns. Let us take care of it with guarantees of increased profits and greater visibility for your product in the online markets.</span>
+                <p class="u-align-center u-text u-text-default u-text-8"> <span id="short-text" data-lang="ar">مع قله
+                    المبيعات. توقف عن إضاعة الوقت والمال في الحملات الإعلانية الخاطئة وغير الفعالة ودعنا نتولي الامر مع
+                    ضمانات زياده الارباح وزياده ظهور منتجك علي الاسواق الاليكترونيه </span></p>
+                <h3 class="u-align-center u-text u-text-default u-text-7" data-lang="en">Be a Professional in Europe
+                </h3>
+                <p class="u-align-center u-text u-text-default u-text-8">
+                  <span id="short-text" data-lang="en">With declining sales, stop wasting time and money on ineffective
+                    and wrong advertising campaigns. Let us take care of it with guarantees of increased profits and
+                    greater visibility for your product in the online markets.</span>
                 </p>
-                
-                
-              </div>
-            </div></a>  
 
-           <!--fourth servise div--> 
-           <a href="Page-4.html">  
-            <div id = "hey" class="u-align-center u-container-style u-gradient u-hover-feature u-list-item u-repeater-item u-shape-rectangle u-list-item-4">
-              <div class="u-container-layout u-similar-container u-container-layout-4" ><span class="u-icon u-icon-circle u-palette-1-light-2 u-text-white u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7be1"></use></svg><svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-7be1" style="enable-background:new 0 0 512 512;"><g><g><path d="M256,0C144.702,0,54.154,90.547,54.154,201.846c0,69.363,35.172,130.662,88.615,167.011v128.373    c0,5.012,2.541,9.682,6.75,12.402c4.207,2.721,9.509,3.121,14.08,1.066L256,469.119l92.401,41.58c1.935,0.87,4,1.301,6.059,1.301    c2.804,0,5.594-0.798,8.021-2.367c4.208-2.721,6.75-7.391,6.75-12.402V368.858c53.443-36.349,88.615-97.648,88.615-167.011    C457.846,90.547,367.298,0,256,0z M339.692,474.39l-77.632-34.934c-1.927-0.868-3.994-1.302-6.06-1.302s-4.133,0.433-6.06,1.301    l-77.632,34.934v-88.835c7.423,3.384,15.042,6.292,22.805,8.745c0.44,0.14,0.879,0.283,1.321,0.419    c0.991,0.305,1.985,0.599,2.98,0.888c0.737,0.216,1.474,0.43,2.213,0.638c0.803,0.224,1.609,0.441,2.415,0.655    c0.94,0.251,1.882,0.496,2.827,0.734c0.668,0.167,1.337,0.331,2.007,0.49c1.087,0.261,2.177,0.513,3.271,0.756    c0.567,0.126,1.135,0.251,1.703,0.372c1.198,0.256,2.4,0.498,3.607,0.733c0.491,0.095,0.982,0.192,1.474,0.284    c1.278,0.238,2.561,0.461,3.847,0.675c0.441,0.074,0.882,0.15,1.324,0.22c1.327,0.212,2.66,0.407,3.997,0.592    c0.414,0.057,0.827,0.119,1.241,0.174c1.353,0.179,2.712,0.34,4.072,0.492c0.406,0.045,0.81,0.096,1.216,0.14    c1.357,0.144,2.719,0.267,4.084,0.383c0.414,0.035,0.826,0.078,1.241,0.11c1.345,0.106,2.696,0.191,4.049,0.271    c0.434,0.026,0.866,0.06,1.302,0.083c1.367,0.072,2.739,0.121,4.113,0.165c0.414,0.014,0.825,0.036,1.239,0.047    c1.776,0.046,3.558,0.072,5.346,0.072c1.787,0,3.569-0.026,5.345-0.072c0.414-0.011,0.825-0.033,1.239-0.047    c1.374-0.044,2.746-0.094,4.113-0.165c0.434-0.023,0.867-0.057,1.302-0.083c1.353-0.08,2.704-0.164,4.049-0.271    c0.415-0.032,0.827-0.075,1.241-0.11c1.365-0.116,2.727-0.24,4.084-0.383c0.406-0.043,0.81-0.094,1.216-0.14    c1.361-0.153,2.719-0.313,4.072-0.492c0.415-0.055,0.827-0.116,1.241-0.174c1.336-0.185,2.669-0.38,3.997-0.592    c0.442-0.071,0.882-0.147,1.324-0.22c1.286-0.214,2.569-0.437,3.847-0.675c0.492-0.092,0.983-0.188,1.474-0.284    c1.206-0.234,2.408-0.478,3.607-0.733c0.569-0.121,1.136-0.246,1.703-0.372c1.094-0.243,2.184-0.495,3.271-0.756    c0.669-0.16,1.338-0.324,2.007-0.49c0.945-0.237,1.886-0.482,2.827-0.734c0.806-0.215,1.612-0.43,2.415-0.655    c0.739-0.208,1.477-0.422,2.213-0.638c0.995-0.29,1.99-0.583,2.98-0.888c0.442-0.137,0.881-0.28,1.321-0.419    c7.763-2.453,15.382-5.36,22.805-8.744V474.39z M312.229,364.724c-0.589,0.203-1.178,0.407-1.769,0.604    c-0.898,0.3-1.8,0.595-2.705,0.88c-1.053,0.331-2.109,0.65-3.168,0.96c-0.747,0.22-1.495,0.439-2.246,0.649    c-1.401,0.391-2.807,0.765-4.218,1.12c-0.526,0.133-1.054,0.259-1.581,0.387c-1.381,0.334-2.768,0.652-4.158,0.952    c-0.35,0.076-0.697,0.156-1.047,0.228c-1.794,0.375-3.594,0.724-5.401,1.041c-0.184,0.032-0.369,0.06-0.554,0.093    c-1.628,0.281-3.261,0.536-4.897,0.769c-0.369,0.053-0.738,0.105-1.109,0.156c-1.745,0.237-3.493,0.455-5.247,0.639    c-0.066,0.007-0.132,0.016-0.198,0.023c-1.836,0.191-3.679,0.348-5.524,0.479c-0.4,0.029-0.802,0.05-1.203,0.077    c-1.435,0.093-2.87,0.166-4.309,0.224c-0.489,0.02-0.978,0.04-1.467,0.056c-1.807,0.055-3.616,0.093-5.428,0.093    s-3.621-0.037-5.428-0.095c-0.49-0.015-0.979-0.036-1.467-0.056c-1.439-0.057-2.874-0.131-4.309-0.224    c-0.401-0.026-0.802-0.048-1.203-0.077c-1.845-0.132-3.687-0.289-5.524-0.479c-0.066-0.007-0.132-0.016-0.198-0.023    c-1.754-0.184-3.502-0.402-5.247-0.639c-0.369-0.05-0.738-0.102-1.108-0.156c-1.637-0.234-3.27-0.488-4.898-0.769    c-0.184-0.031-0.369-0.06-0.554-0.093c-1.807-0.317-3.608-0.667-5.401-1.041c-0.349-0.073-0.697-0.154-1.047-0.228    c-1.39-0.299-2.777-0.618-4.158-0.952c-0.528-0.128-1.056-0.254-1.581-0.387c-1.411-0.354-2.817-0.73-4.218-1.12    c-0.751-0.21-1.499-0.429-2.246-0.649c-1.058-0.311-2.115-0.629-3.169-0.96c-0.905-0.286-1.806-0.58-2.705-0.88    c-0.592-0.197-1.181-0.401-1.769-0.604c-67.484-23.361-116.078-87.547-116.078-162.876c0-95.01,77.297-172.308,172.308-172.308    s172.308,77.297,172.308,172.308C428.308,277.175,379.713,341.361,312.229,364.724z"></path>
-</g>
-</g><g><g><path d="M343.622,201.846l27.741-52.14c2.394-4.497,2.299-9.91-0.248-14.321c-2.547-4.411-7.188-7.2-12.279-7.376l-59.025-2.045    L268.527,75.87c-2.699-4.32-7.433-6.946-12.527-6.946s-9.828,2.626-12.527,6.946l-31.283,50.094l-59.025,2.045    c-5.091,0.176-9.732,2.965-12.279,7.376s-2.642,9.824-0.248,14.321l27.741,52.14l-27.741,52.14    c-2.394,4.497-2.299,9.91,0.248,14.321c2.547,4.411,7.188,7.2,12.279,7.376l59.025,2.045l31.283,50.094    c2.698,4.32,7.433,6.946,12.527,6.946s9.828-2.626,12.527-6.946l31.283-50.094l59.025-2.045c5.091-0.176,9.732-2.965,12.279-7.376    c2.547-4.411,2.642-9.824,0.248-14.321L343.622,201.846z M290.935,248.479c-4.909,0.17-9.414,2.771-12.015,6.938L256,292.118    l-22.919-36.7c-2.602-4.167-7.106-6.767-12.015-6.938l-43.242-1.499l20.323-38.198c2.308-4.337,2.308-9.537,0-13.874    l-20.323-38.198l43.242-1.499c4.909-0.17,9.414-2.771,12.015-6.938L256,111.575l22.919,36.7c2.602,4.167,7.106,6.767,12.015,6.938    l43.242,1.499l-20.323,38.198c-2.307,4.337-2.307,9.538,0.001,13.874l20.323,38.198L290.935,248.479z"></path>
-</g>
-</g></svg>
-            
-            
-          </span>
+
+              </div>
+            </div>
+          </a>
+
+          <!--fourth servise div-->
+          <a href="Page-4.html">
+            <div id="hey"
+              class="u-align-center u-container-style u-gradient u-hover-feature u-list-item u-repeater-item u-shape-rectangle u-list-item-4">
+              <div class="u-container-layout u-similar-container u-container-layout-4"><span
+                  class="u-icon u-icon-circle u-palette-1-light-2 u-text-white u-icon-4"><svg class="u-svg-link"
+                    preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7be1"></use>
+                  </svg><svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-7be1"
+                    style="enable-background:new 0 0 512 512;">
+                    <g>
+                      <g>
+                        <path
+                          d="M256,0C144.702,0,54.154,90.547,54.154,201.846c0,69.363,35.172,130.662,88.615,167.011v128.373    c0,5.012,2.541,9.682,6.75,12.402c4.207,2.721,9.509,3.121,14.08,1.066L256,469.119l92.401,41.58c1.935,0.87,4,1.301,6.059,1.301    c2.804,0,5.594-0.798,8.021-2.367c4.208-2.721,6.75-7.391,6.75-12.402V368.858c53.443-36.349,88.615-97.648,88.615-167.011    C457.846,90.547,367.298,0,256,0z M339.692,474.39l-77.632-34.934c-1.927-0.868-3.994-1.302-6.06-1.302s-4.133,0.433-6.06,1.301    l-77.632,34.934v-88.835c7.423,3.384,15.042,6.292,22.805,8.745c0.44,0.14,0.879,0.283,1.321,0.419    c0.991,0.305,1.985,0.599,2.98,0.888c0.737,0.216,1.474,0.43,2.213,0.638c0.803,0.224,1.609,0.441,2.415,0.655    c0.94,0.251,1.882,0.496,2.827,0.734c0.668,0.167,1.337,0.331,2.007,0.49c1.087,0.261,2.177,0.513,3.271,0.756    c0.567,0.126,1.135,0.251,1.703,0.372c1.198,0.256,2.4,0.498,3.607,0.733c0.491,0.095,0.982,0.192,1.474,0.284    c1.278,0.238,2.561,0.461,3.847,0.675c0.441,0.074,0.882,0.15,1.324,0.22c1.327,0.212,2.66,0.407,3.997,0.592    c0.414,0.057,0.827,0.119,1.241,0.174c1.353,0.179,2.712,0.34,4.072,0.492c0.406,0.045,0.81,0.096,1.216,0.14    c1.357,0.144,2.719,0.267,4.084,0.383c0.414,0.035,0.826,0.078,1.241,0.11c1.345,0.106,2.696,0.191,4.049,0.271    c0.434,0.026,0.866,0.06,1.302,0.083c1.367,0.072,2.739,0.121,4.113,0.165c0.414,0.014,0.825,0.036,1.239,0.047    c1.776,0.046,3.558,0.072,5.346,0.072c1.787,0,3.569-0.026,5.345-0.072c0.414-0.011,0.825-0.033,1.239-0.047    c1.374-0.044,2.746-0.094,4.113-0.165c0.434-0.023,0.867-0.057,1.302-0.083c1.353-0.08,2.704-0.164,4.049-0.271    c0.415-0.032,0.827-0.075,1.241-0.11c1.365-0.116,2.727-0.24,4.084-0.383c0.406-0.043,0.81-0.094,1.216-0.14    c1.361-0.153,2.719-0.313,4.072-0.492c0.415-0.055,0.827-0.116,1.241-0.174c1.336-0.185,2.669-0.38,3.997-0.592    c0.442-0.071,0.882-0.147,1.324-0.22c1.286-0.214,2.569-0.437,3.847-0.675c0.492-0.092,0.983-0.188,1.474-0.284    c1.206-0.234,2.408-0.478,3.607-0.733c0.569-0.121,1.136-0.246,1.703-0.372c1.094-0.243,2.184-0.495,3.271-0.756    c0.669-0.16,1.338-0.324,2.007-0.49c0.945-0.237,1.886-0.482,2.827-0.734c0.806-0.215,1.612-0.43,2.415-0.655    c0.739-0.208,1.477-0.422,2.213-0.638c0.995-0.29,1.99-0.583,2.98-0.888c0.442-0.137,0.881-0.28,1.321-0.419    c7.763-2.453,15.382-5.36,22.805-8.744V474.39z M312.229,364.724c-0.589,0.203-1.178,0.407-1.769,0.604    c-0.898,0.3-1.8,0.595-2.705,0.88c-1.053,0.331-2.109,0.65-3.168,0.96c-0.747,0.22-1.495,0.439-2.246,0.649    c-1.401,0.391-2.807,0.765-4.218,1.12c-0.526,0.133-1.054,0.259-1.581,0.387c-1.381,0.334-2.768,0.652-4.158,0.952    c-0.35,0.076-0.697,0.156-1.047,0.228c-1.794,0.375-3.594,0.724-5.401,1.041c-0.184,0.032-0.369,0.06-0.554,0.093    c-1.628,0.281-3.261,0.536-4.897,0.769c-0.369,0.053-0.738,0.105-1.109,0.156c-1.745,0.237-3.493,0.455-5.247,0.639    c-0.066,0.007-0.132,0.016-0.198,0.023c-1.836,0.191-3.679,0.348-5.524,0.479c-0.4,0.029-0.802,0.05-1.203,0.077    c-1.435,0.093-2.87,0.166-4.309,0.224c-0.489,0.02-0.978,0.04-1.467,0.056c-1.807,0.055-3.616,0.093-5.428,0.093    s-3.621-0.037-5.428-0.095c-0.49-0.015-0.979-0.036-1.467-0.056c-1.439-0.057-2.874-0.131-4.309-0.224    c-0.401-0.026-0.802-0.048-1.203-0.077c-1.845-0.132-3.687-0.289-5.524-0.479c-0.066-0.007-0.132-0.016-0.198-0.023    c-1.754-0.184-3.502-0.402-5.247-0.639c-0.369-0.05-0.738-0.102-1.108-0.156c-1.637-0.234-3.27-0.488-4.898-0.769    c-0.184-0.031-0.369-0.06-0.554-0.093c-1.807-0.317-3.608-0.667-5.401-1.041c-0.349-0.073-0.697-0.154-1.047-0.228    c-1.39-0.299-2.777-0.618-4.158-0.952c-0.528-0.128-1.056-0.254-1.581-0.387c-1.411-0.354-2.817-0.73-4.218-1.12    c-0.751-0.21-1.499-0.429-2.246-0.649c-1.058-0.311-2.115-0.629-3.169-0.96c-0.905-0.286-1.806-0.58-2.705-0.88    c-0.592-0.197-1.181-0.401-1.769-0.604c-67.484-23.361-116.078-87.547-116.078-162.876c0-95.01,77.297-172.308,172.308-172.308    s172.308,77.297,172.308,172.308C428.308,277.175,379.713,341.361,312.229,364.724z">
+                        </path>
+                      </g>
+                    </g>
+                    <g>
+                      <g>
+                        <path
+                          d="M343.622,201.846l27.741-52.14c2.394-4.497,2.299-9.91-0.248-14.321c-2.547-4.411-7.188-7.2-12.279-7.376l-59.025-2.045    L268.527,75.87c-2.699-4.32-7.433-6.946-12.527-6.946s-9.828,2.626-12.527,6.946l-31.283,50.094l-59.025,2.045    c-5.091,0.176-9.732,2.965-12.279,7.376s-2.642,9.824-0.248,14.321l27.741,52.14l-27.741,52.14    c-2.394,4.497-2.299,9.91,0.248,14.321c2.547,4.411,7.188,7.2,12.279,7.376l59.025,2.045l31.283,50.094    c2.698,4.32,7.433,6.946,12.527,6.946s9.828-2.626,12.527-6.946l31.283-50.094l59.025-2.045c5.091-0.176,9.732-2.965,12.279-7.376    c2.547-4.411,2.642-9.824,0.248-14.321L343.622,201.846z M290.935,248.479c-4.909,0.17-9.414,2.771-12.015,6.938L256,292.118    l-22.919-36.7c-2.602-4.167-7.106-6.767-12.015-6.938l-43.242-1.499l20.323-38.198c2.308-4.337,2.308-9.537,0-13.874    l-20.323-38.198l43.242-1.499c4.909-0.17,9.414-2.771,12.015-6.938L256,111.575l22.919,36.7c2.602,4.167,7.106,6.767,12.015,6.938    l43.242,1.499l-20.323,38.198c-2.307,4.337-2.307,9.538,0.001,13.874l20.323,38.198L290.935,248.479z">
+                        </path>
+                      </g>
+                    </g>
+                  </svg>
+
+
+                </span>
                 <h3 class="u-align-center u-text u-text-default u-text-9" data-lang="ar">كن مبدعًا</h3>
-                <p class="u-align-center u-text u-text-default u-text-10" data-lang="ar"> نحن نؤمن بالأبداع والخطأ لدينا مع التجربه يعد صوابا. إذا كان لديك فكره تحتاج للتنفيذ أو الاستشارة. تواصل معنا وسندعمك حتي تحقق ما كان خيالا بالأمس فبالتأكيد هناك فرصه نجاح معنا</p>
+                <p class="u-align-center u-text u-text-default u-text-10" data-lang="ar"> نحن نؤمن بالأبداع والخطأ لدينا
+                  مع التجربه يعد صوابا. إذا كان لديك فكره تحتاج للتنفيذ أو الاستشارة. تواصل معنا وسندعمك حتي تحقق ما كان
+                  خيالا بالأمس فبالتأكيد هناك فرصه نجاح معنا</p>
                 <h3 class="u-align-center u-text u-text-default u-text-9" data-lang="en">Be Creative</h3>
-                <p class="u-align-center u-text u-text-default u-text-10" data-lang="en">We believe in creativity and consider our mistakes as part of the learning process. If you have an idea that needs implementation or consultation, get in touch with us  <span id="more">and we will support you until you achieve what was once just a dream. There is definitely an opportunity for success with us.</span></p> 
-                
+                <p class="u-align-center u-text u-text-default u-text-10" data-lang="en">We believe in creativity and
+                  consider our mistakes as part of the learning process. If you have an idea that needs implementation
+                  or consultation, get in touch with us <span id="more">and we will support you until you achieve what
+                    was once just a dream. There is definitely an opportunity for success with us.</span></p>
+
               </div>
-            </div>   <!--end of fourth servise div--> 
-          </div>
+            </div> <!--end of fourth servise div-->
         </div>
       </div>
-      
-      
-      
-      
-    </section>
-    <section class="u-align-center u-clearfix u-palette-1-light-3 u-section-5" id="sec-b2b5">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div id="carousel-5989" data-interval="5000" data-u-ride="carousel" class="u-carousel u-expanded-width-sm u-expanded-width-xs u-slider u-slider-1">
-          <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-1">
-            <li data-u-target="#carousel-5989" class="u-active u-grey-30 u-shape-circle" data-u-slide-to="0" style="width: 10px; height: 10px;"></li>
-            <li data-u-target="#carousel-5989" class="u-grey-30 u-shape-circle" data-u-slide-to="1" style="width: 10px; height: 10px;"></li>
-          </ol>
-          <div class="u-carousel-inner" role="listbox">
-            <div class="u-active u-align-center u-carousel-item u-container-style u-slide">
-              <div class="u-container-layout u-valign-top u-container-layout-1">
-                <div alt="" class="u-image u-image-circle u-image-1" data-image-width="1280" data-image-height="716"></div>
-                <p class="u-large-text u-text u-text-variant u-text-1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ."</p>
-                <h4 class="u-text u-text-default u-text-2">Connor Quinn<br>
-                </h4>
-                <h6 class="u-text u-text-default u-text-3">President, CEO</h6>
+    </div>
+
+
+
+
+  </section>
+  <section class="u-align-center u-clearfix u-palette-1-light-3 u-section-5" id="section4">
+    <div class="u-clearfix u-sheet u-sheet-1">
+      <div id="carousel-5989" data-interval="5000" data-u-ride="carousel"
+        class="u-carousel u-expanded-width-sm u-expanded-width-xs u-slider u-slider-1">
+        <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-1">
+          <li data-u-target="#carousel-5989" class="u-active u-grey-30 u-shape-circle" data-u-slide-to="0"
+            style="width: 10px; height: 10px;"></li>
+          <li data-u-target="#carousel-5989" class="u-grey-30 u-shape-circle" data-u-slide-to="1"
+            style="width: 10px; height: 10px;"></li>
+        </ol>
+        <div class="u-carousel-inner" role="listbox">
+          <div class="u-active u-align-center u-carousel-item u-container-style u-slide">
+            <div class="u-container-layout u-valign-top u-container-layout-1">
+              <div alt="" class="u-image u-image-circle u-image-1" data-image-width="1280" data-image-height="716">
               </div>
-            </div>
-            <div class="u-align-center u-carousel-item u-container-style u-slide">
-              <div class="u-container-layout u-valign-top u-container-layout-2">
-                <div alt="" class="u-image u-image-circle u-image-2" data-image-width="1280" data-image-height="716"></div>
-                <p class="u-large-text u-text u-text-variant u-text-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
-                <h4 class="u-text u-text-default u-text-5"> Jack Alvarez<br>
-                </h4>
-                <h6 class="u-text u-text-default u-text-6">Sales Manager</h6>
-              </div>
+              <p class="u-large-text u-text u-text-variant u-text-1">"Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ."</p>
+              <h4 class="u-text u-text-default u-text-2">Connor Quinn<br>
+              </h4>
+              <h6 class="u-text u-text-default u-text-3">President, CEO</h6>
             </div>
           </div>
-          <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-grey-70 u-hidden-xs u-icon-circle u-spacing-10 u-carousel-control-1" href="#carousel-5989" role="button" data-u-slide="prev">
-            <span aria-hidden="true">
-              <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+          <div class="u-align-center u-carousel-item u-container-style u-slide">
+            <div class="u-container-layout u-valign-top u-container-layout-2">
+              <div alt="" class="u-image u-image-circle u-image-2" data-image-width="1280" data-image-height="716">
+              </div>
+              <p class="u-large-text u-text u-text-variant u-text-4">"Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+              <h4 class="u-text u-text-default u-text-5"> Jack Alvarez<br>
+              </h4>
+              <h6 class="u-text u-text-default u-text-6">Sales Manager</h6>
+            </div>
+          </div>
+        </div>
+        <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-grey-70 u-hidden-xs u-icon-circle u-spacing-10 u-carousel-control-1"
+          href="#carousel-5989" role="button" data-u-slide="prev">
+          <span aria-hidden="true">
+            <svg viewBox="0 0 451.847 451.847">
+              <path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
 c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
-c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
-            </span>
-            <span class="sr-only">
-              <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path>
+            </svg>
+          </span>
+          <span class="sr-only">
+            <svg viewBox="0 0 451.847 451.847">
+              <path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
 c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
-c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
-            </span>
-          </a>
-          <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-grey-70 u-hidden-xs u-icon-circle u-spacing-10 u-carousel-control-2" href="#carousel-5989" role="button" data-u-slide="next">
-            <span aria-hidden="true">
-              <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path>
+            </svg>
+          </span>
+        </a>
+        <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-grey-70 u-hidden-xs u-icon-circle u-spacing-10 u-carousel-control-2"
+          href="#carousel-5989" role="button" data-u-slide="next">
+          <span aria-hidden="true">
+            <svg viewBox="0 0 451.846 451.847">
+              <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
 L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
-c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
-            </span>
-            <span class="sr-only">
-              <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path>
+            </svg>
+          </span>
+          <span class="sr-only">
+            <svg viewBox="0 0 451.846 451.847">
+              <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
 L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
-c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
-            </span>
-          </a>
-        </div>
-        <img style="z-index: -1;;" class="u-image u-image-circle u-image-3" src="images/72bccfb9f28733af4f0a5d467992afafd94b5b49eb2110db8699aca64ed594ee81633fc45c29dd61a0ebe7dd814b23bdbcebd8e7934daf687835e6_1280.jpg" alt="" data-image-width="1280" data-image-height="878">
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path>
+            </svg>
+          </span>
+        </a>
       </div>
+      <img style="z-index: -1;;" class="u-image u-image-circle u-image-3"
+        src="images/72bccfb9f28733af4f0a5d467992afafd94b5b49eb2110db8699aca64ed594ee81633fc45c29dd61a0ebe7dd814b23bdbcebd8e7934daf687835e6_1280.jpg"
+        alt="" data-image-width="1280" data-image-height="878">
+    </div>
 
-<!-- read more buttom !-->
-      <script>
-function readmore() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+    <!-- read more buttom !-->
+    <script>
+      function readmore() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
-  }
-}
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
 
-      </script>
-      <style data-mode="XXL">@media (max-width: 0px) {
-   .u-section-5 {
-    background-image: none;
-  }
-  .u-section-5 .u-sheet-1 {
-    min-height: 579px;
-  }
-  .u-section-5 .u-slider-1 {
-    min-height: 480px;
-    width: 763px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .u-section-5 .u-carousel-indicators-1 {
-    position: absolute;
-    bottom: 10px;
-    width: auto;
-    height: auto;
-  }
-  .u-section-5 .u-container-layout-1 {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 80px;
-    padding-right: 80px;
-  }
-  .u-section-5 .u-image-1 {
-    width: 83px;
-    height: 83px;
-    background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJtYW4iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAyNTYgMjU2IiBzdHlsZT0id2lkdGg6IDI1NnB4OyBoZWlnaHQ6IDI1NnB4OyI+CjxyZWN0IGZpbGw9IiNDNkQ4RTEiIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ii8+CjxwYXRoIGZpbGw9IiM3Rjk2QTYiIGQ9Ik0xNzIuNiw5My40YzExLjYtNDQuNy0xMS4yLTQ4LjYtMTEuNy00OC4xYy0yMi40LTMxLjMtOTAuMy0xNi44LTc3LjQsNDguMWMtMTMuMy0yLjQtMS44LDMxLjYsMy43LDMyLjEKCWMwLDAsMCwwLDAsMGMwLjIsMCwwLjMsMCwwLjUtMC4xYzE0LjQsNDkuNyw2Mi43LDUwLjIsODAuNywwQzE3Mi4zLDEyNy4zLDE4Ni41LDkzLjMsMTcyLjYsOTMuNHoiLz4KPHBhdGggZmlsbD0iIzdGOTZBNiIgZD0iTTIwNS40LDE3Ny45Yy0yNC02LjEtNDMuNS0xOS44LTQzLjUtMTkuOGwtMjAuNiw2NC44bC04LTIyLjhjMTkuNy0yNy41LTMwLjMtMjcuNS0xMC42LDBsLTgsMjIuOEw5NCwxNTguMQoJYzAsMC0xOS41LDEzLjctNDMuNSwxOS44QzMyLjcsMTgyLjUsMzAsMjU2LDMwLDI1NmgxOTZDMjI2LDI1NiwyMjMuMywxODIuNSwyMDUuNCwxNzcuOXoiLz4KPC9zdmc+Cg==");
-    background-position: 50% 50%;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .u-section-5 .u-text-1 {
-    margin-top: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    font-size: 1.25rem;
-  }
-  .u-section-5 .u-text-2 {
-    font-weight: 700;
-    margin-top: 35px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-  }
-  .u-section-5 .u-text-3 {
-    font-size: 1rem;
-    font-weight: 400;
-    margin-top: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-  }
-  .u-section-5 .u-container-layout-2 {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 80px;
-    padding-right: 80px;
-  }
-  .u-section-5 .u-image-2 {
-    width: 83px;
-    height: 83px;
-    background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJtYW4iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAyNTYgMjU2IiBzdHlsZT0id2lkdGg6IDI1NnB4OyBoZWlnaHQ6IDI1NnB4OyI+CjxyZWN0IGZpbGw9IiNDNkQ4RTEiIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ii8+CjxwYXRoIGZpbGw9IiM3Rjk2QTYiIGQ9Ik0xNzIuNiw5My40YzExLjYtNDQuNy0xMS4yLTQ4LjYtMTEuNy00OC4xYy0yMi40LTMxLjMtOTAuMy0xNi44LTc3LjQsNDguMWMtMTMuMy0yLjQtMS44LDMxLjYsMy43LDMyLjEKCWMwLDAsMCwwLDAsMGMwLjIsMCwwLjMsMCwwLjUtMC4xYzE0LjQsNDkuNyw2Mi43LDUwLjIsODAuNywwQzE3Mi4zLDEyNy4zLDE4Ni41LDkzLjMsMTcyLjYsOTMuNHoiLz4KPHBhdGggZmlsbD0iIzdGOTZBNiIgZD0iTTIwNS40LDE3Ny45Yy0yNC02LjEtNDMuNS0xOS44LTQzLjUtMTkuOGwtMjAuNiw2NC44bC04LTIyLjhjMTkuNy0yNy41LTMwLjMtMjcuNS0xMC42LDBsLTgsMjIuOEw5NCwxNTguMQoJYzAsMC0xOS41LDEzLjctNDMuNSwxOS44QzMyLjcsMTgyLjUsMzAsMjU2LDMwLDI1NmgxOTZDMjI2LDI1NiwyMjMuMywxODIuNSwyMDUuNCwxNzcuOXoiLz4KPC9zdmc+Cg==");
-    background-position: 50% 50%;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .u-section-5 .u-text-4 {
-    margin-top: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    font-size: 1.25rem;
-  }
-  .u-section-5 .u-text-5 {
-    font-weight: 700;
-    margin-top: 35px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-  }
-  .u-section-5 .u-text-6 {
-    font-size: 1rem;
-    font-weight: 400;
-    margin-top: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-  }
-  .u-section-5 .u-carousel-control-1 {
-    width: 43px;
-    height: 43px;
-    background-image: none;
-  }
-  .u-section-5 .u-carousel-control-2 {
-    width: 43px;
-    height: 43px;
-    background-image: none;
-    left: auto;
-    position: absolute;
-    right: 0;
-  }
-}</style>
-    </section>
-    <!--
-    <section class="u-align-center u-clearfix u-section-6" id="carousel_b5df">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-text u-text-default u-text-1">Our partners </h1>
-    		<div class="owl-carousel owl-theme" id="first-carousel">
-    <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
-    <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
-    <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
-    <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
-    <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
-    <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
-    <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
-    <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
-    <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
-    <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
-    <div class="item"><img src="https://www.w3schools.com/css/img_fjords.jpg" alt=""></div>
-</div>
-	</div>
-    </section>-->
-    <section class="u-align-center u-clearfix u-container-align-center u-section-7" id="carousel_c28f">
-      <div class="u-expanded-width u-palette-1-light-2 u-shape u-shape-rectangle u-shape-1"></div>
-      <h2 class="u-align-center u-text u-text-body-alt-color u-text-default u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1500">Our Leaders</h2>
-      <div class="u-list u-list-1">
-        <div class="u-repeater u-repeater-1">
-          <div class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-1" data-animation-direction="Up" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
-            <div class="u-container-layout u-similar-container u-container-layout-1">
-              <div alt="" class="u-image u-image-circle u-image-1" data-image-width="920" data-image-height="920" data-animation-name="customAnimationIn" data-animation-duration="1500"></div>
-              <h4 class="u-align-center u-text u-text-2"> Adam Jonson</h4>
-              <p class="u-align-center u-text u-text-palette-1-base u-text-3"> Founder Pastor</p>
-              <p class="u-align-center u-text u-text-4">Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
-              <div class="u-social-icons u-spacing-10 u-social-icons-1">
-                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-icon-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ad72"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-ad72" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
-                </a>
-                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-icon-2" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-f916"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-f916" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
-                </a>
-                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-icon-3" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-a0a0"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-a0a0" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
-                </a>
-                <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-icon-4" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-78e1"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-78e1" class="u-svg-content"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg></span>
-                </a>
-              </div>
+    </script>
+    <style data-mode="XXL">
+      @media (max-width: 0px) {
+        .u-section-5 {
+          background-image: none;
+        }
+
+        .u-section-5 .u-sheet-1 {
+          min-height: 579px;
+        }
+
+        .u-section-5 .u-slider-1 {
+          min-height: 480px;
+          width: 763px;
+          margin-top: 50px;
+          margin-bottom: 50px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .u-section-5 .u-carousel-indicators-1 {
+          position: absolute;
+          bottom: 10px;
+          width: auto;
+          height: auto;
+        }
+
+        .u-section-5 .u-container-layout-1 {
+          padding-top: 30px;
+          padding-bottom: 30px;
+          padding-left: 80px;
+          padding-right: 80px;
+        }
+
+        .u-section-5 .u-image-1 {
+          width: 83px;
+          height: 83px;
+          background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJtYW4iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAyNTYgMjU2IiBzdHlsZT0id2lkdGg6IDI1NnB4OyBoZWlnaHQ6IDI1NnB4OyI+CjxyZWN0IGZpbGw9IiNDNkQ4RTEiIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ii8+CjxwYXRoIGZpbGw9IiM3Rjk2QTYiIGQ9Ik0xNzIuNiw5My40YzExLjYtNDQuNy0xMS4yLTQ4LjYtMTEuNy00OC4xYy0yMi40LTMxLjMtOTAuMy0xNi44LTc3LjQsNDguMWMtMTMuMy0yLjQtMS44LDMxLjYsMy43LDMyLjEKCWMwLDAsMCwwLDAsMGMwLjIsMCwwLjMsMCwwLjUtMC4xYzE0LjQsNDkuNyw2Mi43LDUwLjIsODAuNywwQzE3Mi4zLDEyNy4zLDE4Ni41LDkzLjMsMTcyLjYsOTMuNHoiLz4KPHBhdGggZmlsbD0iIzdGOTZBNiIgZD0iTTIwNS40LDE3Ny45Yy0yNC02LjEtNDMuNS0xOS44LTQzLjUtMTkuOGwtMjAuNiw2NC44bC04LTIyLjhjMTkuNy0yNy41LTMwLjMtMjcuNS0xMC42LDBsLTgsMjIuOEw5NCwxNTguMQoJYzAsMC0xOS41LDEzLjctNDMuNSwxOS44QzMyLjcsMTgyLjUsMzAsMjU2LDMwLDI1NmgxOTZDMjI2LDI1NiwyMjMuMywxODIuNSwyMDUuNCwxNzcuOXoiLz4KPC9zdmc+Cg==");
+          background-position: 50% 50%;
+          margin-top: 0;
+          margin-bottom: 0;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .u-section-5 .u-text-1 {
+          margin-top: 20px;
+          margin-left: 0;
+          margin-right: 0;
+          margin-bottom: 0;
+          font-size: 1.25rem;
+        }
+
+        .u-section-5 .u-text-2 {
+          font-weight: 700;
+          margin-top: 35px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 0;
+        }
+
+        .u-section-5 .u-text-3 {
+          font-size: 1rem;
+          font-weight: 400;
+          margin-top: 15px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 0;
+        }
+
+        .u-section-5 .u-container-layout-2 {
+          padding-top: 30px;
+          padding-bottom: 30px;
+          padding-left: 80px;
+          padding-right: 80px;
+        }
+
+        .u-section-5 .u-image-2 {
+          width: 83px;
+          height: 83px;
+          background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJtYW4iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAyNTYgMjU2IiBzdHlsZT0id2lkdGg6IDI1NnB4OyBoZWlnaHQ6IDI1NnB4OyI+CjxyZWN0IGZpbGw9IiNDNkQ4RTEiIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ii8+CjxwYXRoIGZpbGw9IiM3Rjk2QTYiIGQ9Ik0xNzIuNiw5My40YzExLjYtNDQuNy0xMS4yLTQ4LjYtMTEuNy00OC4xYy0yMi40LTMxLjMtOTAuMy0xNi44LTc3LjQsNDguMWMtMTMuMy0yLjQtMS44LDMxLjYsMy43LDMyLjEKCWMwLDAsMCwwLDAsMGMwLjIsMCwwLjMsMCwwLjUtMC4xYzE0LjQsNDkuNyw2Mi43LDUwLjIsODAuNywwQzE3Mi4zLDEyNy4zLDE4Ni41LDkzLjMsMTcyLjYsOTMuNHoiLz4KPHBhdGggZmlsbD0iIzdGOTZBNiIgZD0iTTIwNS40LDE3Ny45Yy0yNC02LjEtNDMuNS0xOS44LTQzLjUtMTkuOGwtMjAuNiw2NC44bC04LTIyLjhjMTkuNy0yNy41LTMwLjMtMjcuNS0xMC42LDBsLTgsMjIuOEw5NCwxNTguMQoJYzAsMC0xOS41LDEzLjctNDMuNSwxOS44QzMyLjcsMTgyLjUsMzAsMjU2LDMwLDI1NmgxOTZDMjI2LDI1NiwyMjMuMywxODIuNSwyMDUuNCwxNzcuOXoiLz4KPC9zdmc+Cg==");
+          background-position: 50% 50%;
+          margin-top: 0;
+          margin-bottom: 0;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .u-section-5 .u-text-4 {
+          margin-top: 20px;
+          margin-left: 0;
+          margin-right: 0;
+          margin-bottom: 0;
+          font-size: 1.25rem;
+        }
+
+        .u-section-5 .u-text-5 {
+          font-weight: 700;
+          margin-top: 35px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 0;
+        }
+
+        .u-section-5 .u-text-6 {
+          font-size: 1rem;
+          font-weight: 400;
+          margin-top: 15px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 0;
+        }
+
+        .u-section-5 .u-carousel-control-1 {
+          width: 43px;
+          height: 43px;
+          background-image: none;
+        }
+
+        .u-section-5 .u-carousel-control-2 {
+          width: 43px;
+          height: 43px;
+          background-image: none;
+          left: auto;
+          position: absolute;
+          right: 0;
+        }
+      }
+    </style>
+  </section>
+  
+  <section class="u-align-center u-clearfix u-container-align-center u-section-7" id="section5">
+    <div class="u-expanded-width u-palette-1-light-2 u-shape u-shape-rectangle u-shape-1"></div>
+    <h2 class="u-align-center u-text u-text-body-alt-color u-text-default u-text-1"
+      data-animation-name="customAnimationIn" data-animation-duration="1500">Our Leaders</h2>
+    <div class="u-list u-list-1">
+      <div class="u-repeater u-repeater-1">
+        <div class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-1"
+          data-animation-direction="Up" data-animation-name="customAnimationIn" data-animation-duration="1500"
+          data-animation-delay="500">
+          <div class="u-container-layout u-similar-container u-container-layout-1">
+            <div alt="" class="u-image u-image-circle u-image-1" data-image-width="920" data-image-height="920"
+              data-animation-name="customAnimationIn" data-animation-duration="1500"></div>
+            <h4 class="u-align-center u-text u-text-2"> Adam Jonson</h4>
+            <p class="u-align-center u-text u-text-palette-1-base u-text-3"> Founder Pastor</p>
+            <p class="u-align-center u-text u-text-4">Glavi amet ritnisl libero molestie ante ut fringilla purus eros
+              quis glavrid from dolor amet iquam lorem bibendum</p>
+            <div class="u-social-icons u-spacing-10 u-social-icons-1">
+              <a class="u-social-url" target="_blank" href=""><span
+                  class="u-icon u-icon-circle u-social-facebook u-social-icon u-icon-1" data-animation-name=""
+                  data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg
+                    class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ad72"></use>
+                  </svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-ad72" class="u-svg-content">
+                    <path
+                      d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z">
+                    </path>
+                  </svg></span>
+              </a>
+              <a class="u-social-url" target="_blank" href=""><span
+                  class="u-icon u-icon-circle u-social-icon u-social-twitter u-icon-2" data-animation-name=""
+                  data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg
+                    class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-f916"></use>
+                  </svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-f916" class="u-svg-content">
+                    <path
+                      d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z">
+                    </path>
+                  </svg></span>
+              </a>
+              <a class="u-social-url" target="_blank" href=""><span
+                  class="u-icon u-icon-circle u-social-icon u-social-instagram u-icon-3" data-animation-name=""
+                  data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg
+                    class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-a0a0"></use>
+                  </svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-a0a0" class="u-svg-content">
+                    <path
+                      d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z">
+                    </path>
+                    <path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z">
+                    </path>
+                    <path
+                      d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z">
+                    </path>
+                  </svg></span>
+              </a>
+              <a class="u-social-url" target="_blank" href="#"><span
+                  class="u-icon u-icon-circle u-social-icon u-social-linkedin u-icon-4" data-animation-name=""
+                  data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg
+                    class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-78e1"></use>
+                  </svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-78e1" class="u-svg-content">
+                    <path
+                      d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z">
+                    </path>
+                  </svg></span>
+              </a>
             </div>
           </div>
-          <div class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-2" data-animation-direction="Up" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
-            <div class="u-container-layout u-similar-container u-container-layout-2">
-              <div alt="" class="u-image u-image-circle u-image-2" data-image-width="920" data-image-height="825" data-animation-name="customAnimationIn" data-animation-duration="1500"></div>
-              <h4 class="u-align-center u-text u-text-5">Bob Greenfield</h4>
-              <p class="u-align-center u-text u-text-palette-1-base u-text-6"> Pastor</p>
-              <p class="u-align-center u-text u-text-7">Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
-              <div class="u-social-icons u-spacing-10 u-social-icons-2">
-                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-icon-5" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ad72"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-ad72" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
-                </a>
-                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-icon-6" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-f916"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-f916" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
-                </a>
-                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-icon-7" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-a0a0"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-a0a0" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
-                </a>
-                <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-icon-8" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-78e1"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-78e1" class="u-svg-content"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg></span>
-                </a>
-              </div>
+        </div>
+        <div class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-2"
+          data-animation-direction="Up" data-animation-name="customAnimationIn" data-animation-duration="1500"
+          data-animation-delay="500">
+          <div class="u-container-layout u-similar-container u-container-layout-2">
+            <div alt="" class="u-image u-image-circle u-image-2" data-image-width="920" data-image-height="825"
+              data-animation-name="customAnimationIn" data-animation-duration="1500"></div>
+            <h4 class="u-align-center u-text u-text-5">Bob Greenfield</h4>
+            <p class="u-align-center u-text u-text-palette-1-base u-text-6"> Pastor</p>
+            <p class="u-align-center u-text u-text-7">Glavi amet ritnisl libero molestie ante ut fringilla purus eros
+              quis glavrid from dolor amet iquam lorem bibendum</p>
+            <div class="u-social-icons u-spacing-10 u-social-icons-2">
+              <a class="u-social-url" target="_blank" href=""><span
+                  class="u-icon u-icon-circle u-social-facebook u-social-icon u-icon-5" data-animation-name=""
+                  data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg
+                    class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ad72"></use>
+                  </svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-ad72" class="u-svg-content">
+                    <path
+                      d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z">
+                    </path>
+                  </svg></span>
+              </a>
+              <a class="u-social-url" target="_blank" href=""><span
+                  class="u-icon u-icon-circle u-social-icon u-social-twitter u-icon-6" data-animation-name=""
+                  data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg
+                    class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-f916"></use>
+                  </svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-f916" class="u-svg-content">
+                    <path
+                      d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z">
+                    </path>
+                  </svg></span>
+              </a>
+              <a class="u-social-url" target="_blank" href=""><span
+                  class="u-icon u-icon-circle u-social-icon u-social-instagram u-icon-7" data-animation-name=""
+                  data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg
+                    class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-a0a0"></use>
+                  </svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-a0a0" class="u-svg-content">
+                    <path
+                      d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z">
+                    </path>
+                    <path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z">
+                    </path>
+                    <path
+                      d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z">
+                    </path>
+                  </svg></span>
+              </a>
+              <a class="u-social-url" target="_blank" href="#"><span
+                  class="u-icon u-icon-circle u-social-icon u-social-linkedin u-icon-8" data-animation-name=""
+                  data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg
+                    class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-78e1"></use>
+                  </svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-78e1" class="u-svg-content">
+                    <path
+                      d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z">
+                    </path>
+                  </svg></span>
+              </a>
             </div>
           </div>
-          <div class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-3" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
-            <div class="u-container-layout u-similar-container u-container-layout-3">
-              <div alt="" class="u-image u-image-circle u-image-3" data-image-width="920" data-image-height="825" data-animation-name="customAnimationIn" data-animation-duration="1500"></div>
-              <h4 class="u-align-center u-text u-text-8"> Bob Hudson</h4>
-              <p class="u-align-center u-text u-text-palette-1-base u-text-9"> Volunteer</p>
-              <p class="u-align-center u-text u-text-10">Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
-              <div class="u-social-icons u-spacing-10 u-social-icons-3">
-                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-icon-9" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ad72"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-ad72" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
-                </a>
-                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-icon-10" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-f916"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-f916" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
-                </a>
-                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-icon-11" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-a0a0"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-a0a0" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
-                </a>
-                <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-icon-12" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-78e1"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-78e1" class="u-svg-content"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg></span>
-                </a>
-              </div>
+        </div>
+        <div class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-3"
+          data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
+          <div class="u-container-layout u-similar-container u-container-layout-3">
+            <div alt="" class="u-image u-image-circle u-image-3" data-image-width="920" data-image-height="825"
+              data-animation-name="customAnimationIn" data-animation-duration="1500"></div>
+            <h4 class="u-align-center u-text u-text-8"> Bob Hudson</h4>
+            <p class="u-align-center u-text u-text-palette-1-base u-text-9"> Volunteer</p>
+            <p class="u-align-center u-text u-text-10">Glavi amet ritnisl libero molestie ante ut fringilla purus eros
+              quis glavrid from dolor amet iquam lorem bibendum</p>
+            <div class="u-social-icons u-spacing-10 u-social-icons-3">
+              <a class="u-social-url" target="_blank" href=""><span
+                  class="u-icon u-icon-circle u-social-facebook u-social-icon u-icon-9" data-animation-name=""
+                  data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg
+                    class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ad72"></use>
+                  </svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-ad72" class="u-svg-content">
+                    <path
+                      d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z">
+                    </path>
+                  </svg></span>
+              </a>
+              <a class="u-social-url" target="_blank" href=""><span
+                  class="u-icon u-icon-circle u-social-icon u-social-twitter u-icon-10" data-animation-name=""
+                  data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg
+                    class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-f916"></use>
+                  </svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-f916" class="u-svg-content">
+                    <path
+                      d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z">
+                    </path>
+                  </svg></span>
+              </a>
+              <a class="u-social-url" target="_blank" href=""><span
+                  class="u-icon u-icon-circle u-social-icon u-social-instagram u-icon-11" data-animation-name=""
+                  data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg
+                    class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-a0a0"></use>
+                  </svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-a0a0" class="u-svg-content">
+                    <path
+                      d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z">
+                    </path>
+                    <path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z">
+                    </path>
+                    <path
+                      d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z">
+                    </path>
+                  </svg></span>
+              </a>
+              <a class="u-social-url" target="_blank" href="#"><span
+                  class="u-icon u-icon-circle u-social-icon u-social-linkedin u-icon-12" data-animation-name=""
+                  data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><svg
+                    class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-78e1"></use>
+                  </svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-78e1" class="u-svg-content">
+                    <path
+                      d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z">
+                    </path>
+                  </svg></span>
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="u-clearfix u-gradient u-section-8" id="carousel_817f">
-      <div class="u-expanded-width u-shape u-shape-rectangle u-white u-shape-1"></div>
-      <div class="u-list u-list-1">
-        <div class="u-repeater u-repeater-1">
-          <div class="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-1">
-            <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1"><span class="u-custom-item u-icon u-text-palette-1-base u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 54.757 54.757" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-98b4"></use></svg><svg class="u-svg-content" viewBox="0 0 54.757 54.757" x="0px" y="0px" id="svg-98b4" style="enable-background:new 0 0 54.757 54.757;"><g><path d="M27.557,12c-3.859,0-7,3.141-7,7s3.141,7,7,7s7-3.141,7-7S31.416,12,27.557,12z M27.557,24c-2.757,0-5-2.243-5-5
-		s2.243-5,5-5s5,2.243,5,5S30.314,24,27.557,24z"></path><path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952
+    </div>
+  </section>
+  <section class="u-clearfix u-gradient u-section-8" id="section6">
+    <div class="u-expanded-width u-shape u-shape-rectangle u-white u-shape-1"></div>
+    <div class="u-list u-list-1">
+      <div class="u-repeater u-repeater-1">
+        <div
+          class="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-1">
+          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1"><span
+              class="u-custom-item u-icon u-text-palette-1-base u-icon-1"><svg class="u-svg-link"
+                preserveAspectRatio="xMidYMin slice" viewBox="0 0 54.757 54.757" style="">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-98b4"></use>
+              </svg><svg class="u-svg-content" viewBox="0 0 54.757 54.757" x="0px" y="0px" id="svg-98b4"
+                style="enable-background:new 0 0 54.757 54.757;">
+                <g>
+                  <path d="M27.557,12c-3.859,0-7,3.141-7,7s3.141,7,7,7s7-3.141,7-7S31.416,12,27.557,12z M27.557,24c-2.757,0-5-2.243-5-5
+		s2.243-5,5-5s5,2.243,5,5S30.314,24,27.557,24z"></path>
+                  <path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952
 		L27.38,54.757L42.721,32.6C48.476,24.929,47.643,12.319,40.94,5.617z M41.099,31.431L27.38,51.243L13.639,31.4
 		C8.44,24.468,9.185,13.08,15.235,7.031C18.479,3.787,22.792,2,27.38,2s8.901,1.787,12.146,5.031
 		C45.576,13.08,46.321,24.468,41.099,31.431z"></path>
-</g></svg></span>
-              <h5 class="u-text u-text-1">our main office</h5>
-              <p class="u-text u-text-2">SoHo 94 Broadway St New York, NY 1001</p>
+                </g>
+              </svg></span>
+            <h5 class="u-text u-text-1">our main office</h5>
+            <p class="u-text u-text-2">SoHo 94 Broadway St New York, NY 1001</p>
+          </div>
+        </div>
+        <div
+          class="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-2">
+          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2"><span
+              class="u-custom-item u-file-icon u-icon u-text-palette-1-base u-icon-2"><img
+                src="images/159832-1310eb8b.png" alt=""></span>
+            <h5 class="u-text u-text-3">phone number</h5>
+            <p class="u-text u-text-4">234-9876-5400 <br>888-0123-4567 (Toll Free)
+            </p>
+          </div>
+        </div>
+        <div
+          class="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-3">
+          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3"><span
+              class="u-custom-item u-file-icon u-icon u-text-palette-1-base u-icon-3"><img
+                src="images/953831-4f3e4538.png" alt=""></span>
+            <h5 class="u-text u-text-5">Fax</h5>
+            <p class="u-text u-text-6">1-234-567-8900</p>
+          </div>
+        </div>
+        <div
+          class="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-4">
+          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-4"><span
+              class="u-custom-item u-file-icon u-icon u-text-palette-1-base u-icon-4"><img
+                src="images/561127-14c331f2.png" alt=""></span>
+            <h5 class="u-text u-text-7">Email</h5>
+            <p class="u-text u-text-8">
+              <a href="mailto:hello@theme.com"
+                class="u-active-none u-border-1 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-base u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1">hello@theme.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
+      <div class="u-layout">
+        <div class="u-layout-row">
+          <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
+            <div class="u-container-layout u-valign-top u-container-layout-5">
+              <div class="u-form u-form-1" id="targetSection">
+                <form action="" class="u-clearfix u-form-spacing-30 u-form-vertical u-inner-form"
+                  style="padding: 10px; -webkit-appearance:initial;  " source="email" name="form" id="#contact">
+                  <div class="u-form-email u-form-group u-form-partition-factor-2 u-form-group-1">
+                    <label for="email-319a" class="u-label u-text-body-alt-color u-label-1">Email</label>
+                    <input type="email" placeholder="Enter a valid email address" id="email-319a" name="email"
+                      class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle u-text-body-alt-color"
+                      required="">
+                  </div>
+                  <div class="u-form-group u-form-name u-form-partition-factor-2 u-form-group-2">
+                    <label for="name-319a" class="u-label u-text-body-alt-color u-label-2">Name</label>
+                    <input type="text" placeholder="Enter your Name" id="name-319a" name="name"
+                      class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle u-text-body-alt-color"
+                      required="">
+                  </div>
+                  <div class="u-form-group u-form-message u-form-group-3">
+                    <label for="message-319a" class="u-label u-text-body-alt-color u-label-3">Message</label>
+                    <textarea placeholder="Enter your message" rows="4" cols="50" id="message-319a" name="message"
+                      class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle u-text-body-alt-color"
+                      required=""></textarea>
+                  </div>
+                  <div class="u-align-left u-form-group u-form-submit u-form-group-4">
+                    <a href="#"
+                      class="u-btn u-btn-round u-btn-submit u-button-style u-radius-50 u-text-palette-1-base u-white u-btn-2">Submit</a>
+                    <input type="submit" value="submit" class="u-form-control-hidden">
+                  </div>
+                  <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
+                  <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors
+                    then try again. </div>
+                  <input type="hidden" value="" name="recaptchaResponse">
+                  <input type="hidden" name="formServices" value="61f5188a35d812b7c841d4415f9e1b55">
+                </form>
+              </div>
             </div>
           </div>
-          <div class="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-2">
-            <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2"><span class="u-custom-item u-file-icon u-icon u-text-palette-1-base u-icon-2"><img src="images/159832-1310eb8b.png" alt=""></span>
-              <h5 class="u-text u-text-3">phone number</h5>
-              <p class="u-text u-text-4">234-9876-5400 <br>888-0123-4567 (Toll Free)
+          <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2">
+            <div class="u-container-layout u-container-layout-6">
+              <h2 class="u-text u-text-body-alt-color u-text-default u-text-9">Get in touch</h2>
+              <h6 class="u-custom-font u-text u-text-body-alt-color u-text-font u-text-10">We can ensure reliability,
+                low cost fares and most important, with safety and comfort in mind.</h6>
+              <p class="u-text u-text-body-alt-color u-text-11">Etiam sit amet convallis erat – class aptent taciti
+                sociosqu ad litora torquent per conubia! Maecenas gravida lacus. Lorem etiam sit amet convallis erat.
               </p>
-            </div>
-          </div>
-          <div class="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-3">
-            <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3"><span class="u-custom-item u-file-icon u-icon u-text-palette-1-base u-icon-3"><img src="images/953831-4f3e4538.png" alt=""></span>
-              <h5 class="u-text u-text-5">Fax</h5>
-              <p class="u-text u-text-6">1-234-567-8900</p>
-            </div>
-          </div>
-          <div class="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-4">
-            <div class="u-container-layout u-similar-container u-valign-top u-container-layout-4"><span class="u-custom-item u-file-icon u-icon u-text-palette-1-base u-icon-4"><img src="images/561127-14c331f2.png" alt=""></span>
-              <h5 class="u-text u-text-7">Email</h5>
-              <p class="u-text u-text-8">
-                <a href="mailto:hello@theme.com" class="u-active-none u-border-1 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-base u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1">hello@theme.com</a>
-              </p>
+              <div class="u-social-icons u-spacing-20 u-social-icons-1">
+                <a class="u-social-url" target="_blank" href=""><span
+                    class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-white u-icon-5"><svg
+                      class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7d32"></use>
+                    </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-7d32">
+                      <path
+                        d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z">
+                      </path>
+                    </svg>
+
+
+                  </span>
+                </a>
+                <a class="u-social-url" target="_blank" href=""><span
+                    class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-white u-icon-6"><svg
+                      class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-a46b"></use>
+                    </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-a46b">
+                      <path
+                        d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z">
+                      </path>
+                    </svg>
+
+
+                  </span>
+                </a>
+                <a class="u-social-url" target="_blank" href=""><span
+                    class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-white u-icon-7"><svg
+                      class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-8341"></use>
+                    </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-8341">
+                      <path
+                        d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z">
+                      </path>
+                      <path
+                        d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z">
+                      </path>
+                      <path
+                        d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z">
+                      </path>
+                    </svg>
+
+
+                  </span>
+                </a>
+                <a class="u-social-url" target="_blank" href="#"><span
+                    class="u-icon u-icon-circle u-social-icon u-social-linkedin u-text-white u-icon-8"><svg
+                      class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-8dc3"></use>
+                    </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-8dc3">
+                      <path
+                        d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z">
+                      </path>
+                    </svg>
+
+
+                  </span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="u-clearfix u-layout-wrap u-layout-wrap-1" >
-        <div class="u-layout">
-          <div class="u-layout-row">
-            <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
-              <div class="u-container-layout u-valign-top u-container-layout-5">
-                <div class="u-form u-form-1" id="targetSection">
-                  <form action="" class="u-clearfix u-form-spacing-30 u-form-vertical u-inner-form" style="padding: 10px; -webkit-appearance:initial;  " source="email" name="form" id="#contact">
-                    <div class="u-form-email u-form-group u-form-partition-factor-2 u-form-group-1">
-                      <label for="email-319a" class="u-label u-text-body-alt-color u-label-1">Email</label>
-                      <input type="email" placeholder="Enter a valid email address" id="email-319a" name="email" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle u-text-body-alt-color" required="">
-                    </div>
-                    <div class="u-form-group u-form-name u-form-partition-factor-2 u-form-group-2">
-                      <label for="name-319a" class="u-label u-text-body-alt-color u-label-2" >Name</label>
-                      <input type="text"   placeholder="Enter your Name" id="name-319a" name="name" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle u-text-body-alt-color" required="">
-                    </div>
-                    <div class="u-form-group u-form-message u-form-group-3">
-                      <label for="message-319a" class="u-label u-text-body-alt-color u-label-3">Message</label>
-                      <textarea placeholder="Enter your message" rows="4" cols="50" id="message-319a" name="message" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle u-text-body-alt-color" required=""></textarea>
-                    </div>
-                    <div class="u-align-left u-form-group u-form-submit u-form-group-4">
-                      <a href="#" class="u-btn u-btn-round u-btn-submit u-button-style u-radius-50 u-text-palette-1-base u-white u-btn-2">Submit</a>
-                      <input type="submit" value="submit" class="u-form-control-hidden">
-                    </div>
-                    <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
-                    <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
-                    <input type="hidden" value="" name="recaptchaResponse">
-                    <input type="hidden" name="formServices" value="61f5188a35d812b7c841d4415f9e1b55">
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2">
-              <div class="u-container-layout u-container-layout-6">
-                <h2 class="u-text u-text-body-alt-color u-text-default u-text-9">Get in touch</h2>
-                <h6 class="u-custom-font u-text u-text-body-alt-color u-text-font u-text-10">We can ensure reliability, low cost fares and most important, with safety and comfort in mind.</h6>
-                <p class="u-text u-text-body-alt-color u-text-11">Etiam sit amet convallis erat – class aptent taciti sociosqu ad litora torquent per conubia! Maecenas gravida lacus. Lorem etiam sit amet convallis erat.</p>
-                <div class="u-social-icons u-spacing-20 u-social-icons-1">
-                  <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-white u-icon-5"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7d32"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-7d32"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg>
-          
-          
-        </span>
-                  </a>
-                  <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-white u-icon-6"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-a46b"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-a46b"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg>
-          
-          
-        </span>
-                  </a>
-                  <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-white u-icon-7"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-8341"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-8341"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg>
-          
-          
-        </span>
-                  </a>
-                  <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-text-white u-icon-8"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-8dc3"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-8dc3"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg>
-          
-          
-        </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    
-    
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    </div>
+  </section>
 
 
 
-<Script>
-  	$(".owl-carousel").each(function(){	
-    $('#second-carousel2').owlCarousel({	
-      rtl:false,	
-    loop:true,	
-    margin:10,	
-	  nav: false, // Hide navigation buttons	
-  dots: false, // Hide dots	
-    autoplay: true, // Enable autoplay	
-  autoplayTimeout: 1000, // Set the timeout to 3 seconds	
-  autoplayHoverPause: true, // Pause on hover	
-    responsive:{	
-        0:{	
-            items:1	
-        },	
-        600:{	
-            items:3	
-        },	
-        1000:{	
-            items:5	
-        }	
-    }	
-    });
-    $('#first-carousel').owlCarousel({	
-      rtl:true,	
-    loop:true,	
-    margin:15,	
-	  nav: false, // Hide navigation buttons	
-  dots: false, // Hide dots	
-    autoplay: true, // Enable autoplay	
-  autoplayTimeout: 1000, // Set the timeout to 3 seconds	
-  autoplayHoverPause: true, // Pause on hover	
-    responsive:{	
-        0:{	
-            items:1	
-        },	
-        600:{	
-            items:3	
-        },	
-        1000:{	
-            items:5	
-        }	
-    }	
-    });	
-  });	
- 
-  
-    $('#second-carousel').owlCarousel({	
-      rtl:true,	
-    loop:true,	
-    margin:15,	
-	  nav: false, // Hide navigation buttons	
-  dots: false, // Hide dots	
-    autoplay: true, // Enable autoplay	
-  autoplayTimeout: 1000, // Set the timeout to 3 seconds	
-  autoplayHoverPause: true, // Pause on hover	
-    responsive:{	
-        0:{	
-            items:1	
-        },	
-        600:{	
-            items:3	
-        },	
-        1000:{	
-            items:5	
-        }	
-    }	
-    });
-  
-  </script>
-    <script> 
-  function setLanguage(lang) {
-    // Change page direction
-    if (lang === 'ar') {
-        document.body.classList.add('rtl');
-         
- 
-    } else {
-        document.body.classList.remove('rtl');
-              
-    }
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
 
-    // Switch content based on the selected language
-    const elementsToShow = document.querySelectorAll(`[data-lang="${lang}"]`);
-    const elementsToHide = document.querySelectorAll(`[data-lang]:not([data-lang="${lang}"])`);
 
-    elementsToShow.forEach(el => el.style.display = 'block'); // or whatever it was originally
-    elementsToHide.forEach(el => el.style.display = 'none');
 
-    // Update the anchor tag
-    const languageToggleLink = document.querySelector('[data-lang-toggle]');
-    if (languageToggleLink) {
-        if (lang === 'ar') {
-            languageToggleLink.textContent = 'EN';
-            languageToggleLink.setAttribute('data-lang-toggle', 'en');
-        } else {
-            languageToggleLink.textContent = 'AR';
-            languageToggleLink.setAttribute('data-lang-toggle', 'ar');
+  <Script>
+    $(".owl-carousel").each(function () {
+      $('#second-carousel2').owlCarousel({
+        rtl: false,
+        loop: true,
+        margin: 10,
+        nav: false, // Hide navigation buttons	
+        dots: false, // Hide dots	
+        autoplay: true, // Enable autoplay	
+        autoplayTimeout: 1000, // Set the timeout to 3 seconds	
+        autoplayHoverPause: true, // Pause on hover	
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 3
+          },
+          1000: {
+            items: 5
+          }
         }
+      });
+      $('#first-carousel').owlCarousel({
+        rtl: true,
+        loop: true,
+        margin: 15,
+        nav: false, // Hide navigation buttons	
+        dots: false, // Hide dots	
+        autoplay: true, // Enable autoplay	
+        autoplayTimeout: 1000, // Set the timeout to 3 seconds	
+        autoplayHoverPause: true, // Pause on hover	
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 3
+          },
+          1000: {
+            items: 5
+          }
+        }
+      });
+    });
+
+
+    $('#second-carousel').owlCarousel({
+      rtl: true,
+      loop: true,
+      margin: 15,
+      nav: false, // Hide navigation buttons	
+      dots: false, // Hide dots	
+      autoplay: true, // Enable autoplay	
+      autoplayTimeout: 1000, // Set the timeout to 3 seconds	
+      autoplayHoverPause: true, // Pause on hover	
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 5
+        }
+      }
+    });
+
+  </script>
+  <script>
+    function setLanguage(lang) {
+      // Change page direction
+      if (lang === 'ar') {
+        document.body.classList.add('rtl');
+
+
+      } else {
+        document.body.classList.remove('rtl');
+
+      }
+
+      // Switch content based on the selected language
+      const elementsToShow = document.querySelectorAll(`[data-lang="${lang}"]`);
+      const elementsToHide = document.querySelectorAll(`[data-lang]:not([data-lang="${lang}"])`);
+
+      elementsToShow.forEach(el => el.style.display = 'block'); // or whatever it was originally
+      elementsToHide.forEach(el => el.style.display = 'none');
+
+      // Update the anchor tag
+      const languageToggleLink = document.querySelector('[data-lang-toggle]');
+      if (languageToggleLink) {
+        if (lang === 'ar') {
+          languageToggleLink.textContent = 'EN';
+          languageToggleLink.setAttribute('data-lang-toggle', 'en');
+        } else {
+          languageToggleLink.textContent = 'AR';
+          languageToggleLink.setAttribute('data-lang-toggle', 'ar');
+        }
+      }
     }
-}
 
-// On anchor click, switch language
-document.querySelector('[data-lang-toggle]').addEventListener('click', function(e) {
-    e.preventDefault();
-    const langToSwitchTo = e.target.getAttribute('data-lang-toggle');
-    localStorage.setItem('selectedLang', langToSwitchTo);
-    setLanguage(langToSwitchTo);
-});
+    // On anchor click, switch language
+    document.querySelector('[data-lang-toggle]').addEventListener('click', function (e) {
+      e.preventDefault();
+      const langToSwitchTo = e.target.getAttribute('data-lang-toggle');
+      localStorage.setItem('selectedLang', langToSwitchTo);
+      setLanguage(langToSwitchTo);
+    });
 
-// On page load, check if language preference exists in localStorage and apply
-window.addEventListener('DOMContentLoaded', (event) => {
-    const savedLang = localStorage.getItem('selectedLang');
-    if (savedLang) {
+    // On page load, check if language preference exists in localStorage and apply
+    window.addEventListener('DOMContentLoaded', (event) => {
+      const savedLang = localStorage.getItem('selectedLang');
+      if (savedLang) {
         setLanguage(savedLang);
-    } else {
+      } else {
         setLanguage('en'); // default to English
-    }
-});
-	</Script>
-    <script>
-  document.addEventListener("DOMContentLoaded", function() {
-  const scrollLink = document.getElementById("scrollLink");
-  const targetSection = document.getElementById("targetSection");
+      }
+    });
+  </Script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const scrollLink = document.getElementById("scrollLink");
+      const targetSection = document.getElementById("targetSection");
 
-  scrollLink.addEventListener("click", function(event) {
-    event.preventDefault(); // Prevent the default action
-    window.scrollTo(0, 5000);
-  });
-});
+      scrollLink.addEventListener("click", function (event) {
+        event.preventDefault(); // Prevent the default action
+        window.scrollTo(0, 5000);
+      });
+    });
 
-    </script>
- 
-  
-</body></html>
+  </script>
+
+
+</body>
+
+</html>
