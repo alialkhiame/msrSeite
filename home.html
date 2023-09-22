@@ -99,14 +99,14 @@ body.rtl .u-section-5 .u-image-3{
     color: { value: "random" },
     shape: {
       type:  "circle",
-      stroke: { width: 0, color: "#000000" },
+      stroke: { width: 0.2, color: "#000000" },
       polygon: { nb_sides: 5 },
       image: { src: "img/github.svg", width: 100, height: 100 }
     },
     opacity: {
-      value: 0.6,
-      random: true,
-      anim: { enable: true, speed: 0.6, opacity_min: 0.1, sync: false }
+      value: 0.7,
+      random: false,
+      anim: { enable: true, speed: 0.6, opacity_min: 0.4, sync: false }
     },
     size: {
       value: 1.8,
@@ -114,7 +114,7 @@ body.rtl .u-section-5 .u-image-3{
       anim: { enable: false, speed: 40, size_min: 0.1, sync: false }
     },
     line_linked: {
-      enable: false,
+      enable: true,
       distance: 100,
       color: "#a85e32",
       opacity: 0.9,
@@ -135,11 +135,11 @@ body.rtl .u-section-5 .u-image-3{
     detect_on: "canvas",
     events: {
       onhover: { enable: true, mode: "grab" },
-      onclick: { enable: true, mode: "remove" },
+       
       resize: true
     },
     modes: {
-      grab: { distance: 80, line_linked: { opacity: 2 } },
+      grab: { distance: 120, line_linked: { opacity: 3 } },
       bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 },
       repulse: { distance: 200, duration: 0.4 },
       push: { particles_nb: 4 },
@@ -151,7 +151,7 @@ body.rtl .u-section-5 .u-image-3{
 var count_particles, stats, update;
 stats = new Stats();
 stats.setMode(0);
-stats.domElement.style.position = "absolute";
+stats.domElement.style.position = "relative";
 stats.domElement.style.left = "0px";
 stats.domElement.style.top = "0px";
 document.body.appendChild(stats.domElement);
@@ -209,7 +209,7 @@ requestAnimationFrame(update);
         </nav>
       </div>
 	  </header>
-    <section class="u-clearfix u-white u-section-1" id="sec-513e">
+    <section class="u-clearfix u-white u-section-1 " id="sec-513e">
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
           <div class="u-layout" >
@@ -701,14 +701,14 @@ function readmore() {
             <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
               <div class="u-container-layout u-valign-top u-container-layout-5">
                 <div class="u-form u-form-1" id="targetSection">
-                  <form action="" class="u-clearfix u-form-spacing-30 u-form-vertical u-inner-form" style="padding: 10px" source="email" name="form" id="#contact">
+                  <form action="" class="u-clearfix u-form-spacing-30 u-form-vertical u-inner-form" style="padding: 10px; -webkit-appearance:initial;  " source="email" name="form" id="#contact">
                     <div class="u-form-email u-form-group u-form-partition-factor-2 u-form-group-1">
                       <label for="email-319a" class="u-label u-text-body-alt-color u-label-1">Email</label>
                       <input type="email" placeholder="Enter a valid email address" id="email-319a" name="email" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle u-text-body-alt-color" required="">
                     </div>
                     <div class="u-form-group u-form-name u-form-partition-factor-2 u-form-group-2">
-                      <label for="name-319a" class="u-label u-text-body-alt-color u-label-2">Name</label>
-                      <input type="text" placeholder="Enter your Name" id="name-319a" name="name" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle u-text-body-alt-color" required="">
+                      <label for="name-319a" class="u-label u-text-body-alt-color u-label-2" >Name</label>
+                      <input type="text"   placeholder="Enter your Name" id="name-319a" name="name" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle u-text-body-alt-color" required="">
                     </div>
                     <div class="u-form-group u-form-message u-form-group-3">
                       <label for="message-319a" class="u-label u-text-body-alt-color u-label-3">Message</label>
