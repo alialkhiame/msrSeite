@@ -1,30 +1,86 @@
+html{
+    scroll-snap-type: proximity;
+    z-index: 0;
+}
+.particles-js-canvas-el{
+    z-index: 1;
+}
+ 
 #section1{
-z-index: 1000;
+    z-index: 2;
 }
 #section2{
-    
+    z-index: 0;
     position: relative;
+    padding: 5%;
+    margin-bottom: 0%;
+    height: 40px;
+    
    
 }
 
 .item{
+    z-index:2;
     margin-left: 40px;
   
- 
   
  
     
    
 
 }
+#hey{
+ 
+ /*nice style*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top:
+
+    
+
+   
+}
 #section3{
-    z-index: 1000;  
+    z-index: 0;
+      
 }
 #section4{
-    z-index: 1000;
+    z-index: 0;
 }
 #section5{
-    z-index: 1000; 
+    
 }
 #section6{
     z-index: 1000;

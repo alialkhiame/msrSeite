@@ -97,20 +97,21 @@
   <div id="particles-js"></div> <!-- stats - count particles -->
   <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
   <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+  
   <script>particlesJS("particles-js", {
       particles: {
-        number: { value: 50, density: { enable: true, value_area: 500 } },
+        number: { value: 15, density: { enable: true, value_area: 300 } },
         color: { value: "random" },
         shape: {
           type: "circle",
           stroke: { width: 0.2, color: "#000000" },
           polygon: { nb_sides: 5 },
-          image: { src: "img/github.svg", width: 100, height: 100 }
+          image: { src: "img/github.svg", width: 1, height: 100 }
         },
         opacity: {
           value: 0.7,
           random: false,
-          anim: { enable: true, speed: 0.6, opacity_min: 0.4, sync: false }
+          anim: { enable: false, speed: 0.6, opacity_min: 0.4, sync: false }
         },
         size: {
           value: 1.8,
@@ -118,7 +119,7 @@
           anim: { enable: false, speed: 40, size_min: 0.1, sync: false }
         },
         line_linked: {
-          enable: true,
+          enable: false,
           distance: 100,
           color: "#a85e32",
           opacity: 0.9,
@@ -126,7 +127,7 @@
         },
         move: {
           enable: true,
-          speed: 4,
+          speed: 2,
           direction: "none",
           random: true,
           straight: false,
@@ -172,7 +173,7 @@
   </script>
   <!--end--particals-->
 
-  <header style="z-index:10; background-color: aliceblue;" class="u-clearfix u-header u-header" id="sec-2e88">
+  <header style="z-index:10; " class="u-clearfix u-header u-header" id="sec-2e88">
     <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
       <a href="#" class="u-image u-logo u-image-1">
         <img src="images/default-logo.png" class="u-logo-image u-logo-image-1">
@@ -249,7 +250,7 @@
     <div class="u-clearfix u-sheet u-sheet-1">
       <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
         <div class="u-layout">
-          <div class="u-layout-row" style="z-index:100; background-color: aliceblue;">
+          <div class="u-layout-row" style=" ">
             <div  
               class="u-align-center u-container-style u-image u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-image-1"
               src="images/moha.jpg" data-image-width="626" data-image-height="417">
@@ -278,7 +279,7 @@
 
       <div class="owl-carousel owl-theme" id="second-carousel">
         <div class="item" style="max-height: 50px;"><img src="images/LOGOS_MAR/LOGOS_MARal.png" alt="404"></div>
-        <div class="item" style="max-height: 50px;"><img src="images/LOGOS_MAR/amazon.png" alt="404"></div>
+        <div class="item" style="max-height: 50px;"><img src="images/LOGOS_MAR/am.png" alt="404"></div>
         <div class="item" style="max-height: 50px;"><img src="images/LOGOS_MAR/LOGOS_MARbo.png" alt="404"></div>
         <div class="item" style="max-height: 50px;"><img src="images/LOGOS_MAR/LOGOS_MARcd.png" alt="404"></div>
         <div class="item" style="max-height: 50px;"><img src="images/LOGOS_MAR/LOGOS_MARka.png" alt="404"></div>
@@ -426,7 +427,7 @@
 
           <!--fourth servise div-->
           <a href="Page-4.html">
-            <div id="hey"
+            <div  id="hey"
               class="u-align-center u-container-style u-gradient u-hover-feature u-list-item u-repeater-item u-shape-rectangle u-list-item-4">
               <div class="u-container-layout u-similar-container u-container-layout-4"><span
                   class="u-icon u-icon-circle u-palette-1-light-2 u-text-white u-icon-4"><svg class="u-svg-link"
@@ -1211,5 +1212,5 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
 
 
 </body>
-
+<script src="scroll.js"></script>
 </html>
