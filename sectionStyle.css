@@ -120,20 +120,16 @@
  }
 
 
- .serviseuberschrift {
-    color: #343536;
-    font-size: 59px;
-     font-family: "Libre Baskerville", serif;
-     line-height: 45px;
-     text-align: center;
-     text-shadow: 0 1px 1px #db8d8d;
-     padding-top: 20px;
-
+ .serviseuberschrift, p, h1 {
+    
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 60px;
+      
  }
 
  .serviseuberschrift p {
      color: #343536;
-     font-size: 29px;
+     
      font-family: "Libre Baskerville", serif;
      line-height: 45px;
      text-align: center;
