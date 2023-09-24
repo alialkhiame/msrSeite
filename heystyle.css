@@ -11,7 +11,13 @@
 body {
     background: #ecececdb;
 }
+#logo{
+    top: -75px;
+    position: absolute;
+    height: 190px;
+    width: 298px;
 
+}
 .card-list {
     color: #c76706;
     font-style: italic;
