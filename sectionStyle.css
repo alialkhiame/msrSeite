@@ -77,4 +77,15 @@ h3{
     z-index: 1000;
 }
 
+ #lights{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: -1;
+
+    /* make this section take the full space of his parent element */
+    width: 100%;
+     
  
+
+ }
