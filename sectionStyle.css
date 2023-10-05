@@ -29,55 +29,70 @@
 
  }
 
+ @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
  .hey {
-     border: none;
-     background-color: rgb(203, 30, 30);
+  
      display: inline-block;
-     /* Makes the div inline with text */
-     padding: 10px;
-     /* Adds some padding for spacing */
-
-
-     text-align: center;
-     /* Centers the text horizontally */
-     transition: border-color 0.3s;
-     /* Adds a smooth transition effect for the border color */
-     cursor: pointer;
-     /* Changes cursor to a pointer on hover */
-    
-     min-height: 600px;
+     color: #000900; 
+     padding: 50px 27px 50px 20px;
+     
+     min-height: auto+10%;
      max-height: 500;
-
      width: 100%;
      opacity: 0.9;
-
-     margin: 50px;
-
+     background: linear-gradient(-45deg, #e68f75, #e73c7e, #5337a0, #00ddaa);
+     background-size: 400% 400%;
+     animation: gradient 15s ease infinite;
+   
  }
 
  /* Hover effect */
- .hey:hover {
+ #hey:hover {
      opacity: 2;
      transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
-     background-color: rgba(241, 241, 244, 0.667);
+     background-color: rgba(15, 157, 86, 0.948);
+     color:whitesmoke;
      opacity: 1;
-     
-     box-shadow: rgba(120, 188, 237, 0.566) 0px -23px 25px 0px inset,
-         rgba(17, 97, 183, 0.445) 0px -36px 30px 0px inset,
-         rgba(8, 66, 128, 0.445) 0px -36px 30px 0px inset,
-         rgba(1, 91, 236, 0.06) 0px 2px 1px,
-         rgba(1, 91, 236, 0.06) 0px 2px 1px,
-         rgba(1, 91, 236, 0.06) 0px 2px 1px,
-         rgba(1, 91, 236, 0.06) 0px 2px 1px,
-         rgba(1, 91, 236, 0.06) 0px 2px 1px,
-         rgba(0, 225, 255, 0.2) 0px 23px 25px 0px inset,
-         /* Shadow from the top */
-         rgba(1, 17, 128, 0.15) 0px 36px 30px 0px inset,
-         /* Shadow from the top */
-         rgba(21, 0, 95, 0.996) 0px 90px 40px 0px inset;
+   
+         box-shadow: -3px -3px 20px 3px red, 3px 3px 20px 3px blue;
  }
 
-  
+ .card-item:hover span{
+    color: #fff;
+ }
+
+ .card-item span{
+    color: #fff;
+ }
+
+
+
+ .card-list .card-item {
+    
+    z-index: 100;
+
+    background-repeat: no-repeat;
+    padding-top: 26px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(189, 6, 6, 0.04);
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: border 0.5s ease;
+}
+
  #section4 {
      z-index: 0;
  }
@@ -102,23 +117,11 @@
 
  }
 
- #hey1 {
+ 
 
-     background-image: none;
- }
+ 
 
- #hey2 {
-     background-image: none;
- }
-
- #hey3 {
-     background-image: none;
- }
-
- #hey4 {
-     background-image: none;
- }
-
+ 
 
  .serviseuberschrift, p, h1 {
     
