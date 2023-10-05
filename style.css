@@ -3093,7 +3093,7 @@ base {
   display: none;
 }
 a {
-  color: #259bca;
+   
   text-decoration: none;
 }
 a:hover {
@@ -41584,7 +41584,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-image:not(.u-shading) > .u-container-layout > a,
         a
         {
-        color: #2386e3;
+      
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > a:hover,
         .u-gradient > .u-container-layout > a:hover,
