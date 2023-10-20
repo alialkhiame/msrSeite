@@ -21,8 +21,8 @@ article, header, section, aside, details, figcaption, figure, footer, header, hg
 }
 .sectioncard {
     background:#d1d1d1 none repeat scroll 0 0;
- 
-    font-size: 100%;
+   z-index: 1;
+ font-size: 100%;
     line-height: 24px;
     margin: 0;
 	padding:0;
@@ -37,11 +37,7 @@ a{
 a:hover, a:focus {
 	color: #373e18;
 }
-section {
-    float: left;
-    width: 100%;
-	 
-}
+ 
 h2 {
   
     font-size: 26px;
