@@ -63,5 +63,5 @@
  
  
  .particles-js-canvas-el{
-    z-index: 1;
+    z-index: -1;
  }
