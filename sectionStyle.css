@@ -43,10 +43,10 @@
   
  .hey {
   
-     display: inline-block;
+    display: flex;
      color: #000900; 
      padding: 50px 27px 50px 20px;
-     
+     justify-content: center;
      min-height: auto+10%;
      max-height: 500;
      width: 100%;

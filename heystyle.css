@@ -7,14 +7,25 @@
     box-sizing: border-box;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
  
 #logo{
-    top: -75px;
-    position: absolute;
-    height: 190px;
-    width: 298px;
-
+    display: block;
+    z-index: 2;
+     
+    margin-top: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    
+    height: auto;
+    max-width: 100%;
+    min-width: 200px;
+     
 }
 .card-list {
      
