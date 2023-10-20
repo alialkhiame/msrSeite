@@ -1,5 +1,5 @@
  .particles-js-canvas-el {
-     z-index: 0;
+     z-index: 10;
  }
 
  #section1 {
@@ -40,43 +40,12 @@
       background-position: 0% 50%;
     }
   }
-  
- .hey {
-  
-     display: inline-block;
-     color: #000900; 
-     padding: 50px 27px 50px 20px;
-     
-     min-height: auto+10%;
-     max-height: 500;
-     width: 100%;
-     opacity: 0.9;
-     background: linear-gradient(-45deg, #e68f75, #e73c7e, #5337a0, #00ddaa);
-     background-size: 400% 400%;
-     animation: gradient 15s ease infinite;
-   
- }
+ 
 
  /* Hover effect */
- #hey:hover {
-     opacity: 2;
-     transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
-     background-color: rgba(15, 157, 86, 0.948);
-     color:whitesmoke;
-     opacity: 1;
-   
-         box-shadow: -3px -3px 20px 3px red, 3px 3px 20px 3px blue;
- }
+ 
 
- .card-item:hover span{
-    color: #fff;
- }
-
- .card-item span{
-    color: #fff;
- }
-
-
+ 
 
  .card-list .card-item {
     
