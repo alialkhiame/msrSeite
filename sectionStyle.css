@@ -15,9 +15,23 @@
 
 
  }
-
+/* Default styles for #carousel-5989 */
  
-
+  
+  /* Media query for tablets */
+  @media screen and (max-width: 1400px) {
+    #fuckoyu{
+        margin: 0%;
+        margin-top: 20%;
+    }
+  }
+  
+  /* Media query for desktops */
+  @media screen and (min-width: 1024px) {
+    #carousel-5989 {
+    
+    }
+  }
  .item {
      z-index: 2;
      margin-left: 40px;
@@ -29,6 +43,7 @@
 
  }
 
+ 
  @keyframes gradient {
     0% {
       background-position: 0% 50%;
