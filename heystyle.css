@@ -7,11 +7,11 @@
     box-sizing: border-box;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-img {
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
+
+
+
+
+/*logo Style*/
  
 #logo{
     display: block;
@@ -27,6 +27,29 @@ img {
     min-width: 200px;
      
 }
+/* Default style for all screen sizes */
+#logo {
+    max-width: 100%;
+}
+
+/* Change logo for smaller screens */
+@media screen and (max-width: 600px) {
+    #logo {
+        content: url('images/logo_withnologo.png');
+    }
+}
+
+/* Change logo for larger screens */
+@media screen and (min-width: 1200px) {
+    #logo {
+        content: url('images/default-logo.png');
+    }
+}
+
+
+
+
+
 .card-list {
      
     
