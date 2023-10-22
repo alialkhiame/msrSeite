@@ -1107,7 +1107,8 @@ body.rtl .u-section-3 .u-text-2 {
 .u-section-5 .u-image-1 {
   width: 83px;
   height: 83px;
-  background-image: url("image/moha.jpg" );
+  
+  background-image: url("images/moha.jpg" );
   background-position: 50% 50%;
   margin: 0 auto;
 }
