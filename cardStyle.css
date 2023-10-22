@@ -95,7 +95,7 @@ a{
         display: flex;
         justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 40%;
+    margin-bottom: 20%;
  
     }
  
@@ -112,12 +112,19 @@ a{
    
     
     }
+    .sectioncard{
+        display: flex;
+        justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+ 
+    }
    
   }
   @media (max-width: 650px) {
     .container {
       flex-direction: column; /* Vertical alignment for phones */
-
+        position:absolute;
     }
     div.card {
         width: 100%;
@@ -132,11 +139,23 @@ a{
         display: flex;
         justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 40%;
+    margin-bottom: 60%;
  
     }
 
- 
+    .container .card:hover .face.face1{
+    
+        background: #ff0057;
+        transform: translateY(0);
+        margin-left: 0%;
+    }
+
+    .container .card:hover .face.face1 .content{
+        color:white;
+        transition-property: color 0.5s ease-in-out;
+        opacity: 1;
+    }
+    
  
     
     
@@ -185,7 +204,7 @@ a{
 .container .card .face.face1 .content h3{
   
     opacity: 1;
-    margin: 10px 0 0;
+    margin: 10px ;
     padding: 0;
     margin-left: 2%;
     text-align: center;
@@ -220,7 +239,10 @@ p{
 .container .card:hover .face.face2{
     display:  inline-block;
     transform: translateY(0);
-    height: 100%;
+    height: auto;
+    font-size: 1.5em;
+    padding: 2%;
+    color-scheme: white;
 
 }
 
