@@ -2115,7 +2115,7 @@ body.rtl .u-section-3 .u-text-2 {
 }
 
 .particles-js-canvas-el {
-  z-index: 10;
+  z-index: 1;
 }
 
 #section1 {
@@ -2250,6 +2250,7 @@ body.rtl .u-section-3 .u-text-2 {
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
+    font-family;
 }
 
 
@@ -2325,7 +2326,7 @@ body.rtl .u-section-3 .u-text-2 {
  
  
  .particles-js-canvas-el{
-    z-index: -1;
+    z-index: 1;
  }
 
   
@@ -2349,12 +2350,7 @@ background-image: none;
   background-image: none;
   box-shadow: #000000 1px 2px 1px 2px;
  }
-
-
-
- h2{
-  color:#0158b0
- }
+ 
 
 
  * {
@@ -2378,7 +2374,7 @@ background-image: none;
   align-items: flex-start;
   position: relative;
   width: 320px;
-  height: 450px;
+  height: 550px;
   margin: 30px;
   border-radius: 20px;
   border-bottom-left-radius: 160px;
@@ -2418,11 +2414,14 @@ background-image: none;
 
 .card .icon { 
   
-  height: 120px;  
-   
+  position: relative;
+  width: 140px;
+  height: 120px;
+  background: #5ea8f6;
+  border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px;
   box-shadow: 0 15px 0 rgba(0, 0, 0, 0.1),
-          inset 0 -8px 0 #fff;
+          inset 0 -8px 0 #5ea8f6;
   z-index: 100;
   display: flex;
   justify-content: center;
@@ -2491,3 +2490,11 @@ background-image: none;
 
 *{ 
 }
+
+
+
+
+
+
+
+
