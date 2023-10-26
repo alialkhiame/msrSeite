@@ -2097,3 +2097,409 @@ body.rtl .u-section-3 .u-text-2 {
     font-size: 1.875rem;
   }
 }
+
+
+
+/* Change logo for smaller screens */
+@media screen and (max-width: 600px) {
+  #logo {
+      content: url('images/logo_withnologo.png');
+  }
+}
+
+/* Change logo for larger screens */
+@media screen and (min-width: 1200px) {
+  #logo {
+      content: url('images/default-logo.png');
+  }
+}
+
+.particles-js-canvas-el {
+  z-index: 10;
+}
+
+#section1 {
+  z-index: -2;
+}
+
+#section2 {
+  z-index: 0;
+  position: relative;
+  padding: 5%;
+  margin-bottom: 0%;
+  height: 40px;
+
+
+}
+/* Default styles for #carousel-5989 */
+
+
+/* Media query for tablets */
+@media screen and (max-width: 1400px) {
+ #fuckoyu{
+     margin: 0%;
+     margin-top: 20%;
+ }
+}
+
+/* Media query for desktops */
+@media screen and (min-width: 1024px) {
+ #carousel-5989 {
+ 
+ }
+}
+.item {
+  z-index: 2;
+  margin-left: 40px;
+
+
+
+
+
+
+}
+
+
+@keyframes gradient {
+ 0% {
+   background-position: 0% 50%;
+ }
+ 50% {
+   background-position: 100% 50%;
+ }
+ 100% {
+   background-position: 0% 50%;
+ }
+}
+
+
+/* Hover effect */
+
+
+
+
+.card-list .card-item {
+ 
+ z-index: 100;
+
+ background-repeat: no-repeat;
+ padding-top: 26px;
+ border-radius: 8px;
+ box-shadow: 0px 5px 10px rgba(189, 6, 6, 0.04);
+ list-style: none;
+ cursor: pointer;
+ text-decoration: none;
+ border: 2px solid transparent;
+ transition: border 0.5s ease;
+}
+
+#section4 {
+  z-index: 0;
+}
+
+#section5 {}
+
+#section6 {
+  z-index: 1000;
+}
+
+#lights {
+  position: absolute;
+  z-index: -10;
+  top: 0;
+  left: -1;
+  margin-bottom: 0%;
+  /* make this section take the full space of his parent element */
+  width: 100%;
+  height: 100%;
+
+
+
+}
+
+
+
+
+
+
+
+.serviseuberschrift, h1 {
+ 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 60px;
+   
+}
+
+.serviseuberschrift p {
+  color: #343536;
+  
+  font-family: "Libre Baskerville", serif;
+  line-height: 45px;
+  text-align: center;
+  text-shadow: 0 1px 1px #fff;
+  padding-top: 20px;
+}
+
+#logoDiv img{
+ width: auto;
+ height: 197px;
+
+
+}
+
+
+.serv{
+ text-align: center;
+}
+/* Importing Google font - Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+/*logo Style*/
+ 
+#logo{
+    display: block;
+    z-index: 2;
+     
+    margin-top: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    
+    height: auto;
+    max-width: 100%;
+    min-width: 200px;
+     
+}
+/* Default style for all screen sizes */
+#logo {
+    max-width: 100%;
+}
+
+
+
+
+.card-list {
+     
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    
+    margin: 0% ;
+    padding: 10px;
+    gap: 25px; 
+    font-size: 0.2rem;
+}
+ 
+ 
+
+ 
+ 
+ 
+
+.card-list span {
+ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+ /* make the font big */
+    font-size: 1.5rem;
+    /* make the font bold */
+    font-weight: bold;
+ 
+   
+    /* add some space below the paragraph */
+    margin-bottom: 10px;
+    /* make the text uppercase */
+    text-transform: uppercase;
+   
+    /* add some line height */
+    line-height: 1.2;
+    /* add some text shadow */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+ 
+    
+}
+  
+ 
+ 
+ 
+ 
+ 
+ .particles-js-canvas-el{
+    z-index: -1;
+ }
+
+ .u-section-8{
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .centerServ{
+  text-align: center;
+  font-size: 1.4em;
+  font-family:  Calibri, 'Trebuchet MS', sans-serif;
+  background-image: none;
+ }
+
+
+ #u{
+background-color: none;
+background-image: none;
+ }
+
+ .u-section-8 .u-container-layout-4:hover,
+ .u-section-8 .u-container-layout-1:hover,
+ .u-section-8 .u-container-layout-2:hover,
+ .u-section-8 .u-container-layout-3:hover{
+  background-color: #2cccc4;
+  background-image: none;
+  box-shadow: #000000 1px 2px 1px 2px;
+ }
+
+
+
+ h2{
+  color:#0158b0
+ }
+
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px;  
+}
+
+.card {
+  background: #287bff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  width: 320px;
+  height: 450px;
+  margin: 30px;
+  border-radius: 20px;
+  border-bottom-left-radius: 160px;
+  border-bottom-right-radius: 160px;
+  box-shadow: 0 15px 0 #fff,
+          inset 0 -15px 0 rgba(255, 255, 255, 0.24),
+          0 45px 0 rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: -140px;
+  left: -40%;
+  padding: 0;
+  width: 100%;
+  height: 120%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2));
+  transform: rotate(35deg);
+  pointer-events: none;
+  filter: blur(5px);
+}
+
+.card:nth-child(1) {
+  background: linear-gradient(to bottom, #ff2ae0, #645bf6);
+}
+
+.card:nth-child(2) {
+  background: linear-gradient(to bottom, #ffec61, #f321d7);
+}
+
+.card:nth-child(3) {
+  background: linear-gradient(to bottom, #24ff72, #9a4eff);
+}
+
+.card .icon { 
+  
+  height: 120px;  
+   
+  border-bottom-right-radius: 100px;
+  box-shadow: 0 15px 0 rgba(0, 0, 0, 0.1),
+          inset 0 -8px 0 #fff;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card .icon::before { 
+  position: absolute;
+  top: 0;
+  left: -50px;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border-top-right-radius: 50px;
+  box-shadow: 15px -15px 0 15px  ;
+}
+
+.card .icon::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -50px;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border-top-left-radius: 50px;
+  box-shadow:none;
+}
+
+.card .icon ion-icon {
+  color: #fff;
+  position: relative;
+  font-size: 6em;
+ 
+  --ionicon-stroke-width: 24px;
+}
+
+
+.card .content {
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.card .content h2 {
+  font-size: 1.8em;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.card .content p {
+  color: #fff;
+  line-height: 1.5em;
+}
+.center{
+  text-align: center;
+  font-family:  Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.center p{
+  font-size: 3.0em;
+}
